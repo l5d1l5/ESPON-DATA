@@ -1,0 +1,7 @@
+What we need (for the year of 2020+2021): 
+* Population 
+* Age class
+* (Un)employment data/rate (espacially for youth)
+* Poverity (poverty rate) 
+* Social exclusion (share of population at risk of poverity or social exclusion) 
+* income (GDP/capita, household income, income inequality) 
