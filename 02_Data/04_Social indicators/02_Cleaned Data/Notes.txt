@@ -1,0 +1,64 @@
+What we need (for the year of 2020+2021): 
+
+* Population 
+
+* (Un)employment data/rate (espacially for youth) ( we just need working population instead!) 
+
+* Poverity (poverty rate) 
+
+* Social exclusion (share of population at risk of poverity or social exclusion) 
+
+* income (GDP/capita, household income, income inequality) 
+
+### Notes form the data --> emails-ESPON
+
+** BE 
+- BE average income/poverty/GDP at LAU2 stops at 2018 (not relevant! GDP->2019)
+- BE unemployment rate at LAU2 stops at 2018 (not relevant!) 
+- BE different regions (LAU2) and not the same indocators (drop out)
+- BE: we took only NUTS1 level data (fron the OS)
+
+** CH 
+- CH unemplomyent rate at NUTS3 level (however, it is not computed using international standards,
+ therefore, it can only be used to compare CH's cantons, and not with other regions across EU). 
+- CH no poverty data were found 
+- **contacted**
+
+** DK 
+- Population (2019, 2020, 2021) at the LAU level. 
+- **contacted** 
+
+** FI2 
+- youth unemployment (%) - No data for 2021 is available
+- Unemployment (%) 
+ 
+** HU 
+- GDP 2019 
+- Poverty (%) NUTS2 - 2019-2020 
+- Risk of poverty or exclusion (%) NUTS2 - 2019-2020 
+- Unemployment (%) NUTS3 - 2019-2020-2021
+
+** IT 
+- Unemployment rate (%) 2019-2020 
+- 
+
+** LU 
+- They don't produce regional data. 
+
+** MT 
+- No data (except MT Office of Statistics) 
+
+** NL/2
+- Collect from Eurostat + office of statistics 
+- Unemployment (NUTS3) 2019-2020 
+- https://www.waarstaatjegemeente.nl/ 
+
+** PL 
+- Income (NUTS2) 2019-2020
+- Youth unemployment (NUTS2) 2019-2020 
+- https://stat.gov.pl/en/covid/ 
+- https://bdl.stat.gov.pl/BDL/start
+
+
+
+
