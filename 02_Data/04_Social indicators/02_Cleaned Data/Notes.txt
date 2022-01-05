@@ -1,4 +1,4 @@
-What we need (for the year of 2020+2021): 
+What we need (for the year of 2019 + 2020 + 2021): 
 
 * Population 
 
@@ -11,7 +11,7 @@ What we need (for the year of 2020+2021):
 * income (GDP/capita, household income, income inequality) 
 
 ### Notes form the data --> emails-ESPON
-
+**************** old zip file 
 ** BE 
 - BE average income/poverty/GDP at LAU2 stops at 2018 (not relevant! GDP->2019)
 - BE unemployment rate at LAU2 stops at 2018 (not relevant!) 
@@ -53,12 +53,35 @@ What we need (for the year of 2020+2021):
 - Unemployment (NUTS3) 2019-2020 
 - https://www.waarstaatjegemeente.nl/ 
 
-** PL 
+** PL/2 
 - Income (NUTS2) 2019-2020
 - Youth unemployment (NUTS2) 2019-2020 
+- At risk of poverty (2019- 2020 is not available) 
+- Poverty 2019-2020 (LAU1)
+- Unemployment (2019-2020) [POP/unemployed person * 100] -> proxy!
 - https://stat.gov.pl/en/covid/ 
 - https://bdl.stat.gov.pl/BDL/start
 
+** RO
+- GDP 2018 (not relevant) 
+- Population (counties) 2019-2020-2021 
+- Unemployment (counties) 2019-2020 
+- Income (NUTS2) 2019-2020 
+- At risk of poverty (NUTS2)  
+I NEED WINRAR which I could not install on my work machine (id+psrd)
 
+** SE2/3  
+- Unemployment rate (LAU2) 2019-2020-2021 
+- Youth unemployment (LAU2) 2019-2020-2021 
+- At risk of Poverty (LAU2) 2019 (SCB)
+- Income (LAU2) 2019-2020 (https://www.statistikdatabasen.scb.se/pxweb/en/ssd/START__OE__OE0107__OE0107A/ResultKn/table/tableViewLayout1/) 
+- 
+
+** SI
+- GDP per capita (NUTS3) 2019-2020 
+- Icome (LAU2) 2019-2020 
+- Unemployment rate (LAU2) 2019-2020 
+- Youth unemployment (LAU2) 15-19 years old. 
+- At risk of poverty (NUTS2) 2019-2020 (Eurostat) 
 
 
