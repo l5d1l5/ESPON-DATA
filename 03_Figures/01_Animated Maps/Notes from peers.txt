@@ -5,7 +5,7 @@ just a little, so I do not see the nuance between the two categories
 of the nuts with bars but which is not in the legend.
 You can also try to do the same figure by reporting the cases to the 
 population.
-
+----------------->
 --> Slowed down, there is a difference between the two categories, the 
 'missing values' are reported using red edges colorn, red hatches and gray background. 
 
@@ -16,6 +16,7 @@ I have some comments for the animated map:
 1. It is good to have a map showing absolute numbers, but according 
 to me we also should use population-based values. (e.g. animated map 
 about the weekly number of cases per 100.000 inhabitants etc.)
+---------------
 2. I think missing data occur in two cases: one if there is a real
  missing data (especially in the initial period); the other if the
  number of new cases is too high. Please check what the upper limit 
@@ -24,14 +25,16 @@ the limit to a suitable level (~5000? ~10.000?) it will be sufficient.
  Or you can use an extra category (above 2000). In this case it may 
 also be useful to use the case numbers per inhabitants, as this will
  reduce the outliers in regions with high population.
+-----------------
 3. There have been some changes in the NUTS system between 2016 and
  2021, so some regions are missing data. Belgium, Estonia, Italy (Sardegna) 
 and the United Kingdom could be a problem. The changes can be downloaded 
 here: https://ec.europa.eu/eurostat/web/nuts/history
+-------------------
 4. It might be a good idea to replace the background layer (with grey)
  with the same scale as the case number layer, because the differences between 
 the case number layer and the background layer is eye-caching.
-
+-------------------->
 --> 2. No, the NaNs are reporting only NaNs and not outliers. Yet, we want to have only 
 5/6 legend indicators (but the problem will be fixed whenusing the pop var). 
 3. It is not a problem of nuts_id, but rather a problem of d-points.
