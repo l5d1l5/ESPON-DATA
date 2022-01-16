@@ -2,16 +2,16 @@ What we need (for the year of 2019 + 2020 + 2021):
 
 * Population 
 
-* (Un)employment data/rate (espacially for youth) ( we just need working population instead!) 
+* (Un)employment data/rate (espacially for the youth) ( we just need working population instead!) 
 
-* Poverity (poverty rate) 
+* Poverty (poverty rate) 
 
 * Social exclusion (share of population at risk of poverity or social exclusion) 
 
 * income (GDP/capita, household income, income inequality) 
 
 ### Notes form the data --> emails-ESPON
-**************** old zip file 
+**************** zip file 
 ** BE 
 - BE average income/poverty/GDP at LAU2 stops at 2018 (not relevant! GDP->2019)
 - BE unemployment rate at LAU2 stops at 2018 (not relevant!) 
