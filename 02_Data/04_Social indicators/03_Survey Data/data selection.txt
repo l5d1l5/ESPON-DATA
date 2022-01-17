@@ -1,0 +1,194 @@
+#########
+Selecting the Qs for each theme
+#########
+
+**** Life quality index *****
+
+Name: C001_01
+Label: Life satisfaction
+Question text: All things considered, how satisfied are you with your life these days? Please answer on a scale of 1 to 10, where 1 means very dissatisfied and 10 means very satisfied.
+
+Name: C003_01
+Label: I am optimistic about my future
+Question text: To what extent do you agree or disagree with the following statements? I am optimistic about my future
+
+Name: 	E001_01	
+Label: 	Household's ability to make ends meet
+Question text: A household may have different sources of income and more than one household member may contribute to it. Thinking of your household’s total monthly income: is your household able to make ends meet….?
+
+
+**** Social impacts index *****
+
+Name: 	D004_02	
+Label: 	Felt too tired after work to do some of the household jobs which need to be done
+Question text Round 1: How often in the last 2 weeks have you...?
+Question text Round 2: How often in the last month, have you…?
+
+Name: 	D004_04	
+Label: 	Found it difficult to concentrate on your job because of your family responsibilities
+Question text Round 1: How often in the last 2 weeks have you...?
+Question text Round 2: How often in the last month, have you…?
+
+Name: 	D004_05	
+Label: 	Found that your family responsibilities prevented you from giving the time you should to your job
+Question text Round 1: How often in the last 2 weeks have you...?
+Question text Round 2: How often in the last month, have you…?
+
+
+**** Economic impacts index *****
+
+Name: 	D001	
+Label: 	Employment status
+Question text: Which of these categories best describes your situation?
+
+Name: 	D004_01	
+Label: 	Kept worrying about work when you were not working
+Question text Round 1: How often in the last 2 weeks have you...?
+Question text Round 2: How often in the last month, have you…?
+
+Name: 	D005_01	
+Label: 	Worked in free time to meet work demands
+Question text Round 1: Over the last 2 weeks, how often have you worked in your free time to meet work demands?
+Question text Round 2 and 3: Over the last month, how often have you worked in your free time to meet work demands?
+
+Name: 	D008_01	
+Label: 	Job security
+Question text: Using this scale, how likely or unlikely do you think it is that you might lose your job in the next 3 months?
+
+
+**** Physical health index *****
+
+Name: C004_01
+Label: General health
+Question text: In general, how is your health?
+
+Name: 	C005_03	
+Label: 	WHO-5: I have felt active and vigorous 
+Question text: Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. 
+
+
+Name: 	E003_06
+Label: 	Arrears: healthcare or health insurance
+Question text: Has your household been in arrears at any time during the past 3 months, that is, unable to pay as scheduled any of the following?
+
+
+**** Mental health impacts *****
+
+Name: 	C005_02
+Label: 	WHO-5: I have felt calm and relaxed
+Question text: Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. 
+
+Name: 	C005_04
+Label: 	WHO-5: I woke up feeling fresh and rested
+Question text: Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. 
+
+Name: 	C006_01	
+Label: 	I have felt particularly tense
+Question text: Please indicate for each of the three statements which is closest to how you have been feeling over the last two weeks.
+
+Name: 	C006_03	
+Label: 	I have felt downhearted and depressed
+Question text: Please indicate for each of the three statements which is closest to how you have been feeling over the last two weeks.
+
+
+**** Resiliency index *****
+
+Name: C003_03	
+Label: Resilience 1: I find it difficult to deal with important problems that come up in my life
+Question text: To what extent do you agree or disagree with the following statements?
+I find it difficult to deal with important problems that come up in my life
+
+Name: C003_04	
+Label: Resilience 2: When things go wrong in my life, it generally takes me a long time to get back to normal
+Question text: To what extent do you agree or disagree with the following statements?
+When things go wrong in my life, it generally takes me a long time to get back to normal 
+
+
+**** Social exclusion index *****
+
+Name: 	C005_01
+Label: 	WHO-5: I have felt cheerful and in good spirits
+Question text: Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. 
+
+Name: 	C005_05	
+Label: 	WHO-5: My daily life has been filled with things that interest me
+Question text: Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. 
+
+Name: 	C006_02
+Label: 	I have felt lonely
+Question text: Please indicate for each of the three statements which is closest to how you have been feeling over the last two weeks.
+
+Name: 	C006_03	
+Label: 	I have felt downhearted and depressed
+Question text: Please indicate for each of the three statements which is closest to how you have been feeling over the last two weeks.
+
+
+**** Governance index *****
+
+Label: 	Trust in the news media
+Question text: Please answer on a scale of 1-10 how much you personally trust each of the following institutions.
+
+Name: 	C007_02	
+Label: 	Trust in the police
+Question text: Please answer on a scale of 1-10 how much you personally trust each of the following institutions.
+
+Name: 	C007_03	
+Label: 	Trust in your country’s government
+Question text: Please answer on a scale of 1-10 how much you personally trust each of the following institutions.
+
+Name: 	C007_04	
+Label: 	Trust in the European Union
+Question text: Please answer on a scale of 1-10 how much you personally trust each of the following institutions.
+
+Name: 	C007_05	
+Label: 	Trust in the healthcare system
+Question text: Please answer on a scale of 1-10 how much you personally trust each of the following institutions.
+
+
+**** Household financial index *****
+
+Name: 	E003_01	
+Label: 	Arrears: rent or mortgage
+Question text: Has your household been in arrears at any time during the past 3 months, that is, unable to pay as scheduled any of the following?
+
+Name: 	E003_02
+Label: 	Arrears: utility bills
+Question text: Has your household been in arrears at any time during the past 3 months, that is, unable to pay as scheduled any of the following?
+
+Name: 	E003_03
+Label: 	Arrears: consumer loans
+Question text: Has your household been in arrears at any time during the past 3 months, that is, unable to pay as scheduled any of the following?
+
+Name: 	E003_04
+Label: 	Arrears: phone or internet bills
+Question text: Has your household been in arrears at any time during the past 3 months, that is, unable to pay as scheduled any of the following?
+
+Name: 	E003_05
+Label: 	Arrears: informal loans
+Question text: Has your household been in arrears at any time during the past 3 months, that is, unable to pay as scheduled any of the following?
+
+Name: 	E004	
+Label: 	Household's financial situation since 3 months ago
+Question text: When you compare the financial situation of your household 3 months ago and now would you say it has become better, worse or remained the same?
+
+Name: 	E005	
+Label: 	Household's financial situation in 3 months' time
+Question text: Thinking of the financial situation of your household in 3 months’ time do you think it will become better, worse or remain the same?  
+
+Name: 	E006	
+Label: 	Household savings (time it would cover)
+Question text: If your household would not receive any income, how long would your household be able to maintain the same standard of living using savings?
+
+Name: 	E007_01	
+Label: 	Accommodation security
+Question text: How likely or unlikely do you think it is that you will need to leave your accommodation within the next 6 months because you can no longer afford it?
+
+**** Education index *****
+
+Name: 	F004	
+Label: 	Education level completed
+Question text: What is the highest level of education you have successfully completed?
+Value labels:
+1 Primary
+2 Secondary
+3 Tertiary
