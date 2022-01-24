@@ -1,0 +1,541 @@
+country_region_code,variable,value,wave
+Austria,Grocery and pharmacy,-24.72690991955359,First wave
+Austria,Parks,-31.37649576806347,First wave
+Austria,Residential,15.395379028726529,First wave
+Austria,Retail and recreation,-58.30322947891754,First wave
+Austria,Transit stations,-44.71129916982833,First wave
+Austria,Workplaces,-39.59246230158377,First wave
+Belgium,Grocery and pharmacy,-19.461016949152544,First wave
+Belgium,Parks,-13.356497175141243,First wave
+Belgium,Residential,19.03559322033898,First wave
+Belgium,Retail and recreation,-58.41525423728814,First wave
+Belgium,Transit stations,-50.43728813559322,First wave
+Belgium,Workplaces,-45.66101694915254,First wave
+Bulgaria,Grocery and pharmacy,-21.387258201286215,First wave
+Bulgaria,Parks,-22.971069090014215,First wave
+Bulgaria,Residential,12.235714201699627,First wave
+Bulgaria,Retail and recreation,-44.37677904820728,First wave
+Bulgaria,Transit stations,-41.159598208102814,First wave
+Bulgaria,Workplaces,-31.077464638158506,First wave
+Switzerland,Grocery and pharmacy,-9.473149607151813,First wave
+Switzerland,Parks,8.88070300355222,First wave
+Switzerland,Residential,15.814499367220153,First wave
+Switzerland,Retail and recreation,-56.23311028453102,First wave
+Switzerland,Transit stations,-39.211525423728816,First wave
+Switzerland,Workplaces,-33.51476703492761,First wave
+Czech Republic,Grocery and pharmacy,-5.089840355258627,First wave
+Czech Republic,Parks,10.547423884694718,First wave
+Czech Republic,Residential,11.782935756805843,First wave
+Czech Republic,Retail and recreation,-47.808575117729966,First wave
+Czech Republic,Transit stations,-32.863007113821666,First wave
+Czech Republic,Workplaces,-28.37019821588602,First wave
+Germany,Grocery and pharmacy,-7.8192090395480225,First wave
+Germany,Parks,27.305084745762713,First wave
+Germany,Residential,10.923728813559322,First wave
+Germany,Retail and recreation,-40.26588983050848,First wave
+Germany,Transit stations,-39.66525423728814,First wave
+Germany,Workplaces,-29.39512711864407,First wave
+Denmark,Grocery and pharmacy,-9.803609744817075,First wave
+Denmark,Parks,32.2534103491909,First wave
+Denmark,Residential,11.93009670996292,First wave
+Denmark,Retail and recreation,-20.781647077571588,First wave
+Denmark,Transit stations,-39.55815711122668,First wave
+Denmark,Workplaces,-35.22467864054205,First wave
+Estonia,Grocery and pharmacy,-11.368600608431118,First wave
+Estonia,Parks,10.666666666666668,First wave
+Estonia,Residential,12.29406779661017,First wave
+Estonia,Retail and recreation,-36.38214836011446,First wave
+Estonia,Transit stations,-29.435351089588377,First wave
+Estonia,Workplaces,-31.768845843422113,First wave
+Spain,Grocery and pharmacy,-42.043358297201415,First wave
+Spain,Parks,-58.294442254631456,First wave
+Spain,Residential,21.36189162302682,First wave
+Spain,Retail and recreation,-72.25817895151755,First wave
+Spain,Transit stations,-65.01446581305161,First wave
+Spain,Workplaces,-50.89396925502562,First wave
+Finland,Grocery and pharmacy,-10.358673407084785,First wave
+Finland,Parks,31.448781569605142,First wave
+Finland,Residential,10.112352743953078,First wave
+Finland,Retail and recreation,-33.123045073379615,First wave
+Finland,Transit stations,-39.469614258253905,First wave
+Finland,Workplaces,-29.84614843920516,First wave
+France,Grocery and pharmacy,-32.9712358988175,First wave
+France,Parks,-42.19653768956289,First wave
+France,Residential,21.058007866051803,First wave
+France,Retail and recreation,-64.52115029956789,First wave
+France,Transit stations,-59.42586145782577,First wave
+France,Workplaces,-48.392125706214685,First wave
+United Kingdom,Grocery and pharmacy,-17.9164331077246,First wave
+United Kingdom,Parks,-4.476439535022417,First wave
+United Kingdom,Residential,17.431920239176037,First wave
+United Kingdom,Retail and recreation,-52.333292531099545,First wave
+United Kingdom,Transit stations,-45.25307143476933,First wave
+United Kingdom,Workplaces,-44.77978203344588,First wave
+Greece,Grocery and pharmacy,-8.469733656174334,First wave
+Greece,Parks,-26.152542372881356,First wave
+Greece,Residential,16.416464891041162,First wave
+Greece,Retail and recreation,-57.70217917675545,First wave
+Greece,Transit stations,-50.697336561743334,First wave
+Greece,Workplaces,-41.00242130750605,First wave
+Croatia,Grocery and pharmacy,-22.288984633401384,First wave
+Croatia,Parks,-4.523108200650574,First wave
+Croatia,Residential,13.707298271131771,First wave
+Croatia,Retail and recreation,-48.57506690454951,First wave
+Croatia,Transit stations,-50.51231724625622,First wave
+Croatia,Workplaces,-37.354317998385795,First wave
+Hungary,Grocery and pharmacy,-12.836440677966102,First wave
+Hungary,Parks,7.912900438200852,First wave
+Hungary,Residential,11.586695760671203,First wave
+Hungary,Retail and recreation,-31.625512934879573,First wave
+Hungary,Transit stations,-29.522033898305082,First wave
+Hungary,Workplaces,-29.99576271186441,First wave
+Ireland,Grocery and pharmacy,-12.31348109517601,First wave
+Ireland,Parks,-9.726749233617474,First wave
+Ireland,Residential,19.42837493254269,First wave
+Ireland,Retail and recreation,-54.72879356457839,First wave
+Ireland,Transit stations,-44.56164018618064,First wave
+Ireland,Workplaces,-43.70805736636245,First wave
+Italy,Grocery and pharmacy,-43.37847929705941,First wave
+Italy,Parks,-65.41634964763604,First wave
+Italy,Residential,25.210894739451973,First wave
+Italy,Retail and recreation,-73.67908538535337,First wave
+Italy,Transit stations,-70.11450710981494,First wave
+Italy,Workplaces,-54.68276303165974,First wave
+Liechtenstein,Grocery and pharmacy,-1.25,First wave
+Liechtenstein,Parks,,First wave
+Liechtenstein,Residential,,First wave
+Liechtenstein,Retail and recreation,-45.26470588235294,First wave
+Liechtenstein,Transit stations,-30.87719298245614,First wave
+Liechtenstein,Workplaces,-30.441860465116278,First wave
+Lithuania,Grocery and pharmacy,-17.518355304457,First wave
+Lithuania,Parks,21.709839588377722,First wave
+Lithuania,Residential,12.576424535916061,First wave
+Lithuania,Retail and recreation,-41.289900008967805,First wave
+Lithuania,Transit stations,-31.28517924401399,First wave
+Lithuania,Workplaces,-33.12876580575733,First wave
+Luxembourg,Grocery and pharmacy,-27.305084745762713,First wave
+Luxembourg,Parks,-21.491525423728813,First wave
+Luxembourg,Residential,23.17543859649123,First wave
+Luxembourg,Retail and recreation,-62.49152542372882,First wave
+Luxembourg,Transit stations,-52.83050847457627,First wave
+Luxembourg,Workplaces,-52.50847457627118,First wave
+Latvia,Grocery and pharmacy,-11.581611240176334,First wave
+Latvia,Parks,-13.901129943502823,First wave
+Latvia,Residential,9.785310734463277,First wave
+Latvia,Retail and recreation,-25.541027489163884,First wave
+Latvia,Transit stations,-35.54237288135593,First wave
+Latvia,Workplaces,-28.849964631026584,First wave
+Malta,Grocery and pharmacy,-18.152542372881356,First wave
+Malta,Parks,-28.779661016949152,First wave
+Malta,Residential,19.389830508474578,First wave
+Malta,Retail and recreation,-52.3728813559322,First wave
+Malta,Transit stations,-40.76271186440678,First wave
+Malta,Workplaces,-42.016949152542374,First wave
+Netherlands,Grocery and pharmacy,-6.144081499673302,First wave
+Netherlands,Parks,10.134870342411824,First wave
+Netherlands,Residential,12.442400834881575,First wave
+Netherlands,Retail and recreation,-31.206628036525156,First wave
+Netherlands,Transit stations,-42.1169346151317,First wave
+Netherlands,Workplaces,-32.71532314430604,First wave
+Norway,Grocery and pharmacy,-7.922864784731985,First wave
+Norway,Parks,20.478693849327144,First wave
+Norway,Residential,13.062862173527622,First wave
+Norway,Retail and recreation,-30.82577646348083,First wave
+Norway,Transit stations,-35.8699046931322,First wave
+Norway,Workplaces,-35.23344186754345,First wave
+Poland,Grocery and pharmacy,-19.613103657930797,First wave
+Poland,Parks,-21.920844698778716,First wave
+Poland,Residential,13.048305065849538,First wave
+Poland,Retail and recreation,-41.56120663738494,First wave
+Poland,Transit stations,-42.76632399471002,First wave
+Poland,Workplaces,-28.19842243592437,First wave
+Portugal,Grocery and pharmacy,-30.566647671976124,First wave
+Portugal,Parks,-42.85228541609107,First wave
+Portugal,Residential,23.920726928939086,First wave
+Portugal,Retail and recreation,-57.90620437110644,First wave
+Portugal,Transit stations,-56.27729086774096,First wave
+Portugal,Workplaces,-43.808440597164164,First wave
+Romania,Grocery and pharmacy,-29.48264996762133,First wave
+Romania,Parks,-31.5934911121648,First wave
+Romania,Residential,13.783416507233078,First wave
+Romania,Retail and recreation,-50.895027185605976,First wave
+Romania,Transit stations,-44.41313420034562,First wave
+Romania,Workplaces,-34.08691352246029,First wave
+Sweden,Grocery and pharmacy,-3.3884595512768136,First wave
+Sweden,Parks,24.88085970144934,First wave
+Sweden,Residential,7.967800724689637,First wave
+Sweden,Retail and recreation,-14.18982432057215,First wave
+Sweden,Transit stations,-24.624908876041047,First wave
+Sweden,Workplaces,-19.721566006596863,First wave
+Slovenia,Grocery and pharmacy,-39.49543536805501,First wave
+Slovenia,Parks,-29.145608017218187,First wave
+Slovenia,Residential,17.061097659402744,First wave
+Slovenia,Retail and recreation,-59.48591506146801,First wave
+Slovenia,Transit stations,-45.742601337957176,First wave
+Slovenia,Workplaces,-40.260886452039834,First wave
+Slovakia,Grocery and pharmacy,-23.698053861458646,First wave
+Slovakia,Parks,-14.825966219795259,First wave
+Slovakia,Residential,14.167972328013715,First wave
+Slovakia,Retail and recreation,-57.385941064008406,First wave
+Slovakia,Transit stations,-47.51703012884898,First wave
+Slovakia,Workplaces,-35.785518983448924,First wave
+Austria,Grocery and pharmacy,-14.91185831755385,Second wave
+Austria,Parks,-17.699998471446598,Second wave
+Austria,Residential,8.467363898379476,Second wave
+Austria,Retail and recreation,-39.593658113870305,Second wave
+Austria,Transit stations,-29.30392062963699,Second wave
+Austria,Workplaces,-27.753457442430374,Second wave
+Belgium,Grocery and pharmacy,0.19193176579068702,Second wave
+Belgium,Parks,34.85488704472107,Second wave
+Belgium,Residential,11.004979253112033,Second wave
+Belgium,Retail and recreation,-30.5830336560627,Second wave
+Belgium,Transit stations,-26.65850622406639,Second wave
+Belgium,Workplaces,-24.930705394190873,Second wave
+Bulgaria,Grocery and pharmacy,3.6025891623066313,Second wave
+Bulgaria,Parks,2.4268980606364106,Second wave
+Bulgaria,Residential,2.7187328400191673,Second wave
+Bulgaria,Retail and recreation,-24.81778527116871,Second wave
+Bulgaria,Transit stations,-19.199810538004655,Second wave
+Bulgaria,Workplaces,-22.259303175038234,Second wave
+Switzerland,Grocery and pharmacy,-1.0395391414141415,Second wave
+Switzerland,Parks,17.09925286078454,Second wave
+Switzerland,Residential,8.516998172534317,Second wave
+Switzerland,Retail and recreation,-29.25009809729798,Second wave
+Switzerland,Transit stations,-23.84405255878285,Second wave
+Switzerland,Workplaces,-20.738743761138323,Second wave
+Czech Republic,Grocery and pharmacy,3.17928808950727,Second wave
+Czech Republic,Parks,15.557110373265385,Second wave
+Czech Republic,Residential,9.234919917580319,Second wave
+Czech Republic,Retail and recreation,-34.25517642799898,Second wave
+Czech Republic,Transit stations,-16.451816847875403,Second wave
+Czech Republic,Workplaces,-20.334485009509187,Second wave
+Germany,Grocery and pharmacy,-3.3169087136929463,Second wave
+Germany,Parks,34.602472941995764,Second wave
+Germany,Residential,8.550570539419088,Second wave
+Germany,Retail and recreation,-33.88252074688797,Second wave
+Germany,Transit stations,-30.3597510373444,Second wave
+Germany,Workplaces,-22.37344398340249,Second wave
+Denmark,Grocery and pharmacy,-5.363410919005541,Second wave
+Denmark,Parks,24.068284898603785,Second wave
+Denmark,Residential,7.546937237372465,Second wave
+Denmark,Retail and recreation,-9.979977128110113,Second wave
+Denmark,Transit stations,-29.361629930042962,Second wave
+Denmark,Workplaces,-24.28663352709207,Second wave
+Estonia,Grocery and pharmacy,5.072001580715273,Second wave
+Estonia,Parks,7.823275862068965,Second wave
+Estonia,Residential,5.263228610946453,Second wave
+Estonia,Retail and recreation,-15.050661924520846,Second wave
+Estonia,Transit stations,-15.856727919383522,Second wave
+Estonia,Workplaces,-18.518869788579334,Second wave
+Spain,Grocery and pharmacy,0.6736629100704469,Second wave
+Spain,Parks,-1.8010507453852271,Second wave
+Spain,Residential,7.300781626942005,Second wave
+Spain,Retail and recreation,-33.105937791501816,Second wave
+Spain,Transit stations,-24.554227624373897,Second wave
+Spain,Workplaces,-19.12955661855594,Second wave
+Finland,Grocery and pharmacy,0.6867011308358753,Second wave
+Finland,Parks,30.984946616941198,Second wave
+Finland,Residential,6.243008701762099,Second wave
+Finland,Retail and recreation,-12.476560697065421,Second wave
+Finland,Transit stations,-36.525957681604446,Second wave
+Finland,Workplaces,-15.254853411757882,Second wave
+France,Grocery and pharmacy,-0.19960241278468732,Second wave
+France,Parks,13.165786637738002,Second wave
+France,Residential,7.959917220231779,Second wave
+France,Retail and recreation,-30.633830801669053,Second wave
+France,Transit stations,-19.22992667654616,Second wave
+France,Workplaces,-23.74889143853654,Second wave
+United Kingdom,Grocery and pharmacy,-9.268239055348978,Second wave
+United Kingdom,Parks,22.893568906895357,Second wave
+United Kingdom,Residential,13.431534917504615,Second wave
+United Kingdom,Retail and recreation,-39.222515851488744,Second wave
+United Kingdom,Transit stations,-42.27869896505729,Second wave
+United Kingdom,Workplaces,-35.736178872106116,Second wave
+Greece,Grocery and pharmacy,9.636988737403676,Second wave
+Greece,Parks,27.80023710729105,Second wave
+Greece,Residential,6.7053941908713695,Second wave
+Greece,Retail and recreation,-36.277316735822964,Second wave
+Greece,Transit stations,-31.91464137522229,Second wave
+Greece,Workplaces,-25.981624184943687,Second wave
+Croatia,Grocery and pharmacy,4.27055120531814,Second wave
+Croatia,Parks,28.398096264367815,Second wave
+Croatia,Residential,3.5040591387937967,Second wave
+Croatia,Retail and recreation,-22.819612828752376,Second wave
+Croatia,Transit stations,-22.411706970153457,Second wave
+Croatia,Workplaces,-21.06219867615096,Second wave
+Hungary,Grocery and pharmacy,2.0595895623630938,Second wave
+Hungary,Parks,29.236253712184272,Second wave
+Hungary,Residential,6.8940258668802015,Second wave
+Hungary,Retail and recreation,-16.335804760864818,Second wave
+Hungary,Transit stations,-12.820539419087137,Second wave
+Hungary,Workplaces,-20.05391885661595,Second wave
+Ireland,Grocery and pharmacy,0.7090328758378552,Second wave
+Ireland,Parks,1.7377620954525754,Second wave
+Ireland,Residential,11.097560758743331,Second wave
+Ireland,Retail and recreation,-35.10434780295776,Second wave
+Ireland,Transit stations,-44.92428797973291,Second wave
+Ireland,Workplaces,-31.130400882512696,Second wave
+Italy,Grocery and pharmacy,-5.3568787818642125,Second wave
+Italy,Parks,1.3221917434040396,Second wave
+Italy,Residential,9.581092930400063,Second wave
+Italy,Retail and recreation,-30.563661258148684,Second wave
+Italy,Transit stations,-32.328046602902674,Second wave
+Italy,Workplaces,-23.829546026606863,Second wave
+Liechtenstein,Grocery and pharmacy,,Second wave
+Liechtenstein,Parks,,Second wave
+Liechtenstein,Residential,,Second wave
+Liechtenstein,Retail and recreation,-42.333333333333336,Second wave
+Liechtenstein,Transit stations,-26.75,Second wave
+Liechtenstein,Workplaces,-22.512048192771083,Second wave
+Lithuania,Grocery and pharmacy,18.886361802674042,Second wave
+Lithuania,Parks,15.484550977239554,Second wave
+Lithuania,Residential,4.956799490658412,Second wave
+Lithuania,Retail and recreation,-38.93298310610551,Second wave
+Lithuania,Transit stations,-21.01203786032624,Second wave
+Lithuania,Workplaces,-22.451253896902237,Second wave
+Luxembourg,Grocery and pharmacy,-6.375,Second wave
+Luxembourg,Parks,5.706896551724138,Second wave
+Luxembourg,Residential,10.813278008298756,Second wave
+Luxembourg,Retail and recreation,-33.912863070539416,Second wave
+Luxembourg,Transit stations,-27.04979253112033,Second wave
+Luxembourg,Workplaces,-28.645833333333332,Second wave
+Latvia,Grocery and pharmacy,-2.5865688599091086,Second wave
+Latvia,Parks,-6.352370689655173,Second wave
+Latvia,Residential,7.909543568464731,Second wave
+Latvia,Retail and recreation,-24.19505909028731,Second wave
+Latvia,Transit stations,-28.204218533886586,Second wave
+Latvia,Workplaces,-25.26623034357128,Second wave
+Malta,Grocery and pharmacy,-4.377593360995851,Second wave
+Malta,Parks,-3.8382978723404255,Second wave
+Malta,Residential,9.033195020746888,Second wave
+Malta,Retail and recreation,-21.456431535269708,Second wave
+Malta,Transit stations,-20.510373443983404,Second wave
+Malta,Workplaces,-22.57261410788382,Second wave
+Netherlands,Grocery and pharmacy,-2.9094980048591497,Second wave
+Netherlands,Parks,19.23203128496178,Second wave
+Netherlands,Residential,9.5180450490617,Second wave
+Netherlands,Retail and recreation,-29.91985321378811,Second wave
+Netherlands,Transit stations,-39.96154406005022,Second wave
+Netherlands,Workplaces,-23.158765651181294,Second wave
+Norway,Grocery and pharmacy,-1.546024868044949,Second wave
+Norway,Parks,10.6375806239322,Second wave
+Norway,Residential,7.120176335317298,Second wave
+Norway,Retail and recreation,-12.38172127246466,Second wave
+Norway,Transit stations,-37.21137928807911,Second wave
+Norway,Workplaces,-19.568540203424394,Second wave
+Poland,Grocery and pharmacy,3.0026806048211796,Second wave
+Poland,Parks,6.821619396488163,Second wave
+Poland,Residential,6.110140110903431,Second wave
+Poland,Retail and recreation,-16.013825341940834,Second wave
+Poland,Transit stations,-21.967600377728765,Second wave
+Poland,Workplaces,-17.23302710895771,Second wave
+Portugal,Grocery and pharmacy,-1.7690641294656484,Second wave
+Portugal,Parks,-14.71806830059984,Second wave
+Portugal,Residential,12.875418744972679,Second wave
+Portugal,Retail and recreation,-32.021102700893486,Second wave
+Portugal,Transit stations,-34.61428117639613,Second wave
+Portugal,Workplaces,-23.73985726803269,Second wave
+Romania,Grocery and pharmacy,0.9796815616411485,Second wave
+Romania,Parks,-14.989705792204095,Second wave
+Romania,Residential,4.681783072608414,Second wave
+Romania,Retail and recreation,-21.475958488690218,Second wave
+Romania,Transit stations,-24.385154566631336,Second wave
+Romania,Workplaces,-20.348237239147384,Second wave
+Sweden,Grocery and pharmacy,-5.584887208272158,Second wave
+Sweden,Parks,15.02344381953913,Second wave
+Sweden,Residential,8.034531833797335,Second wave
+Sweden,Retail and recreation,-14.743814670363793,Second wave
+Sweden,Transit stations,-34.11702189932825,Second wave
+Sweden,Workplaces,-20.07079716171974,Second wave
+Slovenia,Grocery and pharmacy,-22.46340718715017,Second wave
+Slovenia,Parks,-14.401277709359606,Second wave
+Slovenia,Residential,10.290999653429349,Second wave
+Slovenia,Retail and recreation,-41.01953568245961,Second wave
+Slovenia,Transit stations,-33.53395556698696,Second wave
+Slovenia,Workplaces,-26.21387889390765,Second wave
+Slovakia,Grocery and pharmacy,-5.7856577707139145,Second wave
+Slovakia,Parks,-12.801772828437413,Second wave
+Slovakia,Residential,9.294337667028683,Second wave
+Slovakia,Retail and recreation,-37.653801557319454,Second wave
+Slovakia,Transit stations,-33.32882932513472,Second wave
+Slovakia,Workplaces,-25.41056714907201,Second wave
+Austria,Grocery and pharmacy,6.424741071413842,Third wave
+Austria,Parks,47.35021460371277,Third wave
+Austria,Residential,2.218190427668844,Third wave
+Austria,Retail and recreation,-0.04017229034536287,Third wave
+Austria,Transit stations,-1.7075669605907564,Third wave
+Austria,Workplaces,-20.259706847878025,Third wave
+Belgium,Grocery and pharmacy,20.076315789473682,Third wave
+Belgium,Parks,88.11600877192983,Third wave
+Belgium,Residential,4.731578947368422,Third wave
+Belgium,Retail and recreation,10.307236842105263,Third wave
+Belgium,Transit stations,-8.132894736842106,Third wave
+Belgium,Workplaces,-19.395394736842103,Third wave
+Bulgaria,Grocery and pharmacy,24.762806352486823,Third wave
+Bulgaria,Parks,34.373989445660875,Third wave
+Bulgaria,Residential,-3.427333487542559,Third wave
+Bulgaria,Retail and recreation,-4.929697728367974,Third wave
+Bulgaria,Transit stations,11.832495797410454,Third wave
+Bulgaria,Workplaces,-19.33976580581953,Third wave
+Switzerland,Grocery and pharmacy,11.995127484280879,Third wave
+Switzerland,Parks,65.16764157853783,Third wave
+Switzerland,Residential,2.573641134085213,Third wave
+Switzerland,Retail and recreation,-4.374717108804186,Third wave
+Switzerland,Transit stations,-7.794999999999999,Third wave
+Switzerland,Workplaces,-15.58788195184317,Third wave
+Czech Republic,Grocery and pharmacy,29.06419863431311,Third wave
+Czech Republic,Parks,61.98066572764817,Third wave
+Czech Republic,Residential,1.523985418556082,Third wave
+Czech Republic,Retail and recreation,17.336916847171636,Third wave
+Czech Republic,Transit stations,21.113916927447512,Third wave
+Czech Republic,Workplaces,-12.018871191135736,Third wave
+Germany,Grocery and pharmacy,20.76644736842105,Third wave
+Germany,Parks,111.28042763157895,Third wave
+Germany,Residential,3.2208059210526314,Third wave
+Germany,Retail and recreation,2.5300164473684212,Third wave
+Germany,Transit stations,-2.398848684210526,Third wave
+Germany,Workplaces,-11.946957236842104,Third wave
+Denmark,Grocery and pharmacy,7.1599872608966875,Third wave
+Denmark,Parks,81.13914984075167,Third wave
+Denmark,Residential,1.9700423543258851,Third wave
+Denmark,Retail and recreation,19.612570527915235,Third wave
+Denmark,Transit stations,-4.602957287527717,Third wave
+Denmark,Workplaces,-18.53880198618572,Third wave
+Estonia,Grocery and pharmacy,24.61074561403509,Third wave
+Estonia,Parks,47.12280701754386,Third wave
+Estonia,Residential,0.6925125313283208,Third wave
+Estonia,Retail and recreation,12.785745614035088,Third wave
+Estonia,Transit stations,1.1949561403508773,Third wave
+Estonia,Workplaces,-12.145770676691729,Third wave
+Spain,Grocery and pharmacy,22.32154149909658,Third wave
+Spain,Parks,61.13234394124847,Third wave
+Spain,Residential,0.6000611995104039,Third wave
+Spain,Retail and recreation,-2.8349143206854346,Third wave
+Spain,Transit stations,9.806762545899634,Third wave
+Spain,Workplaces,-14.848837209302324,Third wave
+Finland,Grocery and pharmacy,15.957896637970682,Third wave
+Finland,Parks,91.01103947552653,Third wave
+Finland,Residential,2.224040200708271,Third wave
+Finland,Retail and recreation,13.76249710875427,Third wave
+Finland,Transit stations,-22.16476961061686,Third wave
+Finland,Workplaces,-18.3943439035871,Third wave
+France,Grocery and pharmacy,27.684871672265416,Third wave
+France,Parks,109.22802196176929,Third wave
+France,Residential,1.9001688019390581,Third wave
+France,Retail and recreation,6.773331457756233,Third wave
+France,Transit stations,28.19626443390814,Third wave
+France,Workplaces,-16.561472039473685,Third wave
+United Kingdom,Grocery and pharmacy,7.611449931634124,Third wave
+United Kingdom,Parks,54.40261099057852,Third wave
+United Kingdom,Residential,5.989694160000485,Third wave
+United Kingdom,Retail and recreation,-2.6920703967194326,Third wave
+United Kingdom,Transit stations,-19.433641655930227,Third wave
+United Kingdom,Workplaces,-26.075312977695457,Third wave
+Greece,Grocery and pharmacy,71.31860902255639,Third wave
+Greece,Parks,189.63063909774436,Third wave
+Greece,Residential,-4.993421052631579,Third wave
+Greece,Retail and recreation,35.52161654135339,Third wave
+Greece,Transit stations,108.84304511278197,Third wave
+Greece,Workplaces,-7.239661654135338,Third wave
+Croatia,Grocery and pharmacy,48.88742601273765,Third wave
+Croatia,Parks,172.90432235892763,Third wave
+Croatia,Residential,-2.5792241019214703,Third wave
+Croatia,Retail and recreation,34.76790935672515,Third wave
+Croatia,Transit stations,43.26451181203987,Third wave
+Croatia,Workplaces,-10.389035087719298,Third wave
+Hungary,Grocery and pharmacy,32.176142659279776,Third wave
+Hungary,Parks,94.51728391040504,Third wave
+Hungary,Residential,0.6967105263157896,Third wave
+Hungary,Retail and recreation,33.776315789473685,Third wave
+Hungary,Transit stations,21.469407894736843,Third wave
+Hungary,Workplaces,-11.72828947368421,Third wave
+Ireland,Grocery and pharmacy,25.387724358974356,Third wave
+Ireland,Parks,52.122152086988834,Third wave
+Ireland,Residential,1.2641282894736843,Third wave
+Ireland,Retail and recreation,7.145182186234818,Third wave
+Ireland,Transit stations,-13.535080250936938,Third wave
+Ireland,Workplaces,-18.328016194331983,Third wave
+Italy,Grocery and pharmacy,21.733490566037734,Third wave
+Italy,Parks,106.35805964190426,Third wave
+Italy,Residential,1.0057100297914598,Third wave
+Italy,Retail and recreation,6.427197120158888,Third wave
+Italy,Transit stations,5.73420253045796,Third wave
+Italy,Workplaces,-13.934520854021846,Third wave
+Liechtenstein,Grocery and pharmacy,,Third wave
+Liechtenstein,Parks,,Third wave
+Liechtenstein,Residential,,Third wave
+Liechtenstein,Retail and recreation,,Third wave
+Liechtenstein,Transit stations,-18.689655172413794,Third wave
+Liechtenstein,Workplaces,-21.046296296296298,Third wave
+Lithuania,Grocery and pharmacy,61.79541423001949,Third wave
+Lithuania,Parks,86.62264820036202,Third wave
+Lithuania,Residential,-3.8739612050960734,Third wave
+Lithuania,Retail and recreation,-2.0317927631578945,Third wave
+Lithuania,Transit stations,7.843144971804511,Third wave
+Lithuania,Workplaces,-5.2095381683375095,Third wave
+Luxembourg,Grocery and pharmacy,10.927631578947368,Third wave
+Luxembourg,Parks,67.10526315789474,Third wave
+Luxembourg,Residential,4.125,Third wave
+Luxembourg,Retail and recreation,-6.671052631578948,Third wave
+Luxembourg,Transit stations,-4.203947368421052,Third wave
+Luxembourg,Workplaces,-18.342105263157894,Third wave
+Latvia,Grocery and pharmacy,20.36499843358396,Third wave
+Latvia,Parks,32.10087719298245,Third wave
+Latvia,Residential,2.648245614035088,Third wave
+Latvia,Retail and recreation,-10.290996412213516,Third wave
+Latvia,Transit stations,-7.923793859649123,Third wave
+Latvia,Workplaces,-18.078364351324673,Third wave
+Malta,Grocery and pharmacy,20.42763157894737,Third wave
+Malta,Parks,48.82236842105263,Third wave
+Malta,Residential,1.3026315789473684,Third wave
+Malta,Retail and recreation,18.276315789473685,Third wave
+Malta,Transit stations,9.105263157894736,Third wave
+Malta,Workplaces,-8.539473684210526,Third wave
+Netherlands,Grocery and pharmacy,11.959372258338702,Third wave
+Netherlands,Parks,54.4946605042856,Third wave
+Netherlands,Residential,3.9423022354698305,Third wave
+Netherlands,Retail and recreation,7.323795772001417,Third wave
+Netherlands,Transit stations,-21.798747274375987,Third wave
+Netherlands,Workplaces,-21.03225977003626,Third wave
+Norway,Grocery and pharmacy,8.749524024635447,Third wave
+Norway,Parks,37.43777111040311,Third wave
+Norway,Residential,2.219592417486331,Third wave
+Norway,Retail and recreation,11.41233225149,Third wave
+Norway,Transit stations,-20.109569056184355,Third wave
+Norway,Workplaces,-20.490370054171187,Third wave
+Poland,Grocery and pharmacy,43.25317629613205,Third wave
+Poland,Parks,71.05816948017767,Third wave
+Poland,Residential,-0.7185038225720402,Third wave
+Poland,Retail and recreation,21.72419321052914,Third wave
+Poland,Transit stations,14.93229475975168,Third wave
+Poland,Workplaces,-5.863097064837759,Third wave
+Portugal,Grocery and pharmacy,41.497726349518395,Third wave
+Portugal,Parks,60.38957127271633,Third wave
+Portugal,Residential,3.548408451889593,Third wave
+Portugal,Retail and recreation,16.92982631109719,Third wave
+Portugal,Transit stations,-4.000266471485756,Third wave
+Portugal,Workplaces,-13.620924903810568,Third wave
+Romania,Grocery and pharmacy,21.019070623728226,Third wave
+Romania,Parks,20.90409644380055,Third wave
+Romania,Residential,-1.3197637752338647,Third wave
+Romania,Retail and recreation,-0.43209220073322024,Third wave
+Romania,Transit stations,-7.850466892880858,Third wave
+Romania,Workplaces,-14.8947563912229,Third wave
+Sweden,Grocery and pharmacy,5.609412496167774,Third wave
+Sweden,Parks,53.73679582774535,Third wave
+Sweden,Residential,3.6349449567189733,Third wave
+Sweden,Retail and recreation,8.311809267068872,Third wave
+Sweden,Transit stations,-21.505104343486884,Third wave
+Sweden,Workplaces,-20.333186282618353,Third wave
+Slovenia,Grocery and pharmacy,2.164709906321748,Third wave
+Slovenia,Parks,18.354041353383458,Third wave
+Slovenia,Residential,0.9429532614099939,Third wave
+Slovenia,Retail and recreation,-1.6483215576642232,Third wave
+Slovenia,Transit stations,-9.0370416493619,Third wave
+Slovenia,Workplaces,-16.227747819081774,Third wave
+Slovakia,Grocery and pharmacy,23.267750929653563,Third wave
+Slovakia,Parks,35.99977392318724,Third wave
+Slovakia,Residential,2.195056661495053,Third wave
+Slovakia,Retail and recreation,9.006901646618852,Third wave
+Slovakia,Transit stations,0.7237542016659434,Third wave
+Slovakia,Workplaces,-15.26258519520511,Third wave
