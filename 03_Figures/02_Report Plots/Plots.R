@@ -133,5 +133,232 @@ layoutLayer(title = "Population in Europe, 2008",
 north("topleft")
 
   
+### clusters 
+library(sf)
+library(ClustGeo)
+library(tidyverse)
 
+### 2019 
+map <- st_read('Med/GIS.shp')
+
+dat <- read_csv('D0.csv') %>%
+  select(-NUTS_ID)
+
+D.geo <- read_csv("D.geo.csv")
+
+D0 <- dist(dat) 
+
+tree <- hclustgeo(D0)
+
+
+plot(tree,hang = -1, label = FALSE, 
+     xlab = "", sub = "",
+     main = "Ward dendrogram with D0 only")
+
+rect.hclust(tree ,k = 5, border = c(4,5,3,2,1))
+legend("topright", legend = paste("cluster",1:5), 
+       fill=1:5,bty= "n", border = "white")
+
+
+plot(map, border = "grey", col = P5, 
+     main = "Partition P5 obtained with D0 only")
+legend("topleft", legend = paste("cluster",1:5), 
+       fill = 1:5, bty = "n", border = "white")
+
+
+D1 <- as.dist(D.geo)
+
+range.alpha <- seq(0,1,0.1)
+K <- 5
+cr <- choicealpha(D0, D1, range.alpha, 
+                  K, graph = FALSE)
+cr$Q # proportion of explained inertia
+
+plot(cr)
+
+
+tree <- hclustgeo(D0,D1,alpha=0.1)
+P5bis <- cutree(tree,5)
     
+sp::plot(map, border = "grey", col = P5bis, 
+         main = "Partition P5bis obtained with alpha=0.2 
+         and geographical distances")
+legend("topleft", legend=paste("cluster",1:5), 
+       fill=1:5, bty="n",border="white")
+
+### Change the partition to take neighborhood constraint into account
+
+library(spdep)
+
+list.nb <- poly2nb(map, row.names = rownames(dat)) #list of neighbours of each city
+
+A <- nb2mat(list.nb,style="B")
+diag(A) <- 1
+colnames(A) <- rownames(A) <- city_label
+A[1:5,1:5]
+
+D1 <- as.dist(1-A)
+
+range.alpha <- seq(0,1,0.1)
+K <- 5
+cr <- choicealpha(D0, D1, range.alpha,
+                  K, graph=FALSE)
+plot(cr)
+
+cr$Qnorm
+
+plot(cr, norm = TRUE)
+
+tree <- hclustgeo(D0, D1, alpha  =0.1)
+P5ter <- cutree(tree,5)
+sp::plot(map, border="grey", col=P5ter, 
+         main=" Partition P5ter obtained with
+         alpha=0.2 and neighborhood dissimilarities")
+legend("topleft", legend=1:5, fill=1:5, col=P5ter)
+
+write.csv(P5ter, 'index.csv')
+
+
+#### 2020 
+
+map <- st_read('Med/GIS.shp')
+
+dat <- read_csv('D0_2020.csv') %>%
+  select(-NUTS_ID)
+
+D.geo <- read_csv("D.geo.csv")
+
+D0 <- dist(dat) 
+
+tree <- hclustgeo(D0)
+
+
+plot(tree,hang = -1, label = FALSE, 
+     xlab = "", sub = "",
+     main = "Ward dendrogram with D0 only")
+
+rect.hclust(tree ,k = 5, border = c(4,5,3,2,1))
+legend("topright", legend = paste("cluster",1:5), 
+       fill=1:5,bty= "n", border = "white")
+
+
+plot(map, border = "grey", col = P5, 
+     main = "Partition P5 obtained with D0 only")
+legend("topleft", legend = paste("cluster",1:5), 
+       fill = 1:5, bty = "n", border = "white")
+
+
+D1 <- as.dist(D.geo)
+
+range.alpha <- seq(0,1,0.1)
+K <- 5
+cr <- choicealpha(D0, D1, range.alpha, 
+                  K, graph = FALSE)
+cr$Q # proportion of explained inertia
+
+plot(cr)
+
+
+tree <- hclustgeo(D0,D1,alpha=0.1)
+P5bis <- cutree(tree,5)
+
+sp::plot(map, border = "grey", col = P5bis, 
+         main = "Partition P5bis obtained with alpha=0.! 
+         and geographical distances")
+legend("topleft", legend=paste("cluster",1:5), 
+       fill=1:5, bty="n",border="white")
+
+### Change the partition to take neighborhood constraint into account
+
+library(spdep)
+
+list.nb <- poly2nb(map, row.names = rownames(dat)) #list of neighbours of each city
+
+A <- nb2mat(list.nb,style="B")
+diag(A) <- 1
+colnames(A) <- rownames(A) <- city_label
+A[1:5,1:5]
+
+D1 <- as.dist(1-A)
+
+range.alpha <- seq(0,1,0.1)
+K <- 5
+cr <- choicealpha(D0, D1, range.alpha,
+                  K, graph=FALSE)
+plot(cr)
+
+cr$Qnorm
+
+plot(cr, norm = TRUE)
+
+tree <- hclustgeo(D0, D1, alpha  =0.1)
+P5ter <- cutree(tree,5)
+sp::plot(map, border="grey", col=P5ter, 
+         main=" Partition P5ter obtained with
+         alpha=0.1 and neighborhood dissimilarities")
+legend("topleft", legend=1:5, fill=1:5, col=P5ter)
+
+
+
+write.csv(P5ter, 'index_2020.csv')
+
+#### test map 
+
+library(mapsf)
+
+mf_theme("dark")
+
+mtq <- mf_get_mtq()
+# define the figure layout (1 row, 2 columns)
+par(mfrow = c(1, 2))
+# first map
+mf_map(mtq)
+mf_map(mtq, "POP", "prop")
+mf_title("Population")
+# second map
+mf_map(mtq, "MED", "choro")
+mf_title("Median Income")
+
+
+
+
+library(sf)
+library(cartography)
+# path to the geopackage file embedded in cartography
+path_to_gpkg <- system.file("gpkg/mtq.gpkg", package="cartography")
+# import to an sf object
+mtq <- st_read(dsn = path_to_gpkg, quiet = TRUE)
+# plot municipalities (only the backgroung color is plotted)
+plot(st_geometry(mtq), col = NA, border = NA, bg = "lightblue1")
+# plot isopleth map
+smoothLayer(
+  x = mtq, 
+  var = 'POP',
+  typefct = "exponential",
+  span = 4000,
+  beta = 2,
+  nclass = 12,
+  col = carto.pal(pal1 = 'brown.pal', n1 = 12),
+  border = "grey",
+  lwd = 0.1, 
+  mask = mtq, 
+  legend.values.rnd = -3,
+  legend.title.txt = "Population\nPotential",
+  legend.pos = "topright", 
+  add=TRUE
+)
+## Functions related to Stewart's potential are deprecated.
+## Please use the `potential` package instead.
+## https://riatelab.github.io/potential/
+# annotation on the map
+text(x = 692582, y = 1611478, cex = 0.8, adj = 0, font = 3,  labels = 
+       "Distance function:\n- type = exponential\n- beta = 2\n- span = 4 km")
+# layout
+layoutLayer(title = "Population Distribution in Martinique",
+            sources = "Sources: Insee and IGN, 2018",
+            author = paste0("cartography ", packageVersion("cartography")),
+            frame = FALSE, north = FALSE, tabtitle = TRUE, theme = "brown.pal")
+# north arrow
+north(pos = "topleft")
+
+
