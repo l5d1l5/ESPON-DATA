@@ -1,0 +1,20 @@
+## Remakrs from Prof. BOURDIN 
+
+### PLOTS 
+
+- fig 1 
+
+- fig 2 
+
+- fig 3 
+
+- fig 4 
+
+
+### QTs 
+
+* Should I stop doing the ecological index for the survey (NUTS1) and continue lookig for 
+NUTS3/LAU data? 
+
+* What I'm responsible for exactly? (from the mid-report!) 
+

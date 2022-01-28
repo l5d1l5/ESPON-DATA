@@ -76,9 +76,10 @@ mob <- read_csv('Input/mob_data.csv')
 
 mob %>%
   ggplot(aes(value, country_region_code, color = wave))+
+  theme_linedraw() +
   geom_vline(aes(xintercept=0), color = 'gray', lwd=1.5) +
   geom_point(size = 3.5, alpha = .7) +
-  facet_grid(~variable,space = "fixed") +
+  facet_grid(~variable,space = "fixed", scale = 'free') +
   labs(x=NULL, y=NULL,
        title="Mobility data trends across European countries during the pandemic waves", 
        subtitle = 'Percentage change compared to the baseline') +
@@ -141,35 +142,38 @@ library(tidyverse)
 ### 2019 
 map <- st_read('Med/GIS.shp')
 
-dat <- read_csv('D0.csv') %>%
-  select(-NUTS_ID)
+dat_2019 <- read_csv('D0_2019.csv') %>% as.data.frame()
+rownames(dat_2019) <- dat_2019[, 1]  ## set rownames
+dat_2019 <- dat_2019[, -1]   
+
 
 D.geo <- read_csv("D.geo.csv")
 
-D0 <- dist(dat) 
+D0 <- dist(dat_2019) 
 
 tree <- hclustgeo(D0)
 
+P5 <- cutree(tree,6)
 
 plot(tree,hang = -1, label = FALSE, 
      xlab = "", sub = "",
      main = "Ward dendrogram with D0 only")
 
-rect.hclust(tree ,k = 5, border = c(4,5,3,2,1))
-legend("topright", legend = paste("cluster",1:5), 
-       fill=1:5,bty= "n", border = "white")
+rect.hclust(tree ,k = 6, border = c(4,5,3,2,1))
+legend("topright", legend = paste("cluster",1:6), 
+       fill=1:6,bty= "n", border = "white")
 
 
 plot(map, border = "grey", col = P5, 
-     main = "Partition P5 obtained with D0 only")
-legend("topleft", legend = paste("cluster",1:5), 
-       fill = 1:5, bty = "n", border = "white")
+     main = "Partition P5 obtained with D1-matrix only")
+legend("topleft", legend = paste("cluster",1:6), 
+       fill = 1:6, bty = "n", border = "white")
 
 
 D1 <- as.dist(D.geo)
 
 range.alpha <- seq(0,1,0.1)
-K <- 5
+K <- 6
 cr <- choicealpha(D0, D1, range.alpha, 
                   K, graph = FALSE)
 cr$Q # proportion of explained inertia
@@ -178,21 +182,22 @@ plot(cr)
 
 
 tree <- hclustgeo(D0,D1,alpha=0.1)
-P5bis <- cutree(tree,5)
+P5bis <- cutree(tree,6)
     
 sp::plot(map, border = "grey", col = P5bis, 
-         main = "Partition P5bis obtained with alpha=0.2 
+         main = "Partition P5bis obtained with alpha=0.1 
          and geographical distances")
-legend("topleft", legend=paste("cluster",1:5), 
-       fill=1:5, bty="n",border="white")
+legend("topleft", legend=paste("cluster",1:6), 
+       fill=1:6, bty="n",border="white")
 
 ### Change the partition to take neighborhood constraint into account
 
 library(spdep)
 
-list.nb <- poly2nb(map, row.names = rownames(dat)) #list of neighbours of each city
+list.nb <- poly2nb(map, row.names = colnames(dat_2019)) #list of neighbours of each city
 
-A <- nb2mat(list.nb,style="B")
+A <- nb2mat(list.nb,style="B", zero.policy = TRUE)
+
 diag(A) <- 1
 colnames(A) <- rownames(A) <- city_label
 A[1:5,1:5]
@@ -200,7 +205,7 @@ A[1:5,1:5]
 D1 <- as.dist(1-A)
 
 range.alpha <- seq(0,1,0.1)
-K <- 5
+K <- 6
 cr <- choicealpha(D0, D1, range.alpha,
                   K, graph=FALSE)
 plot(cr)
@@ -210,48 +215,46 @@ cr$Qnorm
 plot(cr, norm = TRUE)
 
 tree <- hclustgeo(D0, D1, alpha  =0.1)
-P5ter <- cutree(tree,5)
+P5ter <- cutree(tree,6)
 sp::plot(map, border="grey", col=P5ter, 
          main=" Partition P5ter obtained with
-         alpha=0.2 and neighborhood dissimilarities")
-legend("topleft", legend=1:5, fill=1:5, col=P5ter)
+         alpha=0.1 and neighborhood dissimilarities")
+legend("topleft", legend=1:6, fill=1:6, col=P5ter)
 
-write.csv(P5ter, 'index.csv')
+write.csv(P5ter, 'index_2019.csv')
 
 
 #### 2020 
 
-map <- st_read('Med/GIS.shp')
+dat_2020 <- read_csv('D0_2020.csv') %>% as.data.frame()
+rownames(dat_2020) <- dat_2020[, 1]  ## set rownames
+dat_2020 <- dat_2020[, -1]   
 
-dat <- read_csv('D0_2020.csv') %>%
-  select(-NUTS_ID)
-
-D.geo <- read_csv("D.geo.csv")
-
-D0 <- dist(dat) 
+D0 <- dist(dat_2020) 
 
 tree <- hclustgeo(D0)
 
+P5 <- cutree(tree,6)
 
 plot(tree,hang = -1, label = FALSE, 
      xlab = "", sub = "",
      main = "Ward dendrogram with D0 only")
 
-rect.hclust(tree ,k = 5, border = c(4,5,3,2,1))
-legend("topright", legend = paste("cluster",1:5), 
-       fill=1:5,bty= "n", border = "white")
+rect.hclust(tree ,k = 6, border = c(4,5,3,2,1))
+legend("topright", legend = paste("cluster",1:6), 
+       fill=1:6,bty= "n", border = "white")
 
 
 plot(map, border = "grey", col = P5, 
      main = "Partition P5 obtained with D0 only")
-legend("topleft", legend = paste("cluster",1:5), 
-       fill = 1:5, bty = "n", border = "white")
+legend("topleft", legend = paste("cluster",1:6), 
+       fill = 1:6, bty = "n", border = "white")
 
 
 D1 <- as.dist(D.geo)
 
 range.alpha <- seq(0,1,0.1)
-K <- 5
+K <- 6
 cr <- choicealpha(D0, D1, range.alpha, 
                   K, graph = FALSE)
 cr$Q # proportion of explained inertia
@@ -260,19 +263,18 @@ plot(cr)
 
 
 tree <- hclustgeo(D0,D1,alpha=0.1)
-P5bis <- cutree(tree,5)
+P5bis <- cutree(tree,6)
 
 sp::plot(map, border = "grey", col = P5bis, 
-         main = "Partition P5bis obtained with alpha=0.! 
+         main = "Partition P5bis obtained with alpha=0.1 
          and geographical distances")
-legend("topleft", legend=paste("cluster",1:5), 
-       fill=1:5, bty="n",border="white")
+legend("topleft", legend=paste("cluster",1:6), 
+       fill=1:6, bty="n",border="white")
 
 ### Change the partition to take neighborhood constraint into account
 
-library(spdep)
 
-list.nb <- poly2nb(map, row.names = rownames(dat)) #list of neighbours of each city
+list.nb <- poly2nb(map, row.names = rownames(dat_2020)) #list of neighbours of each city
 
 A <- nb2mat(list.nb,style="B")
 diag(A) <- 1
@@ -282,7 +284,7 @@ A[1:5,1:5]
 D1 <- as.dist(1-A)
 
 range.alpha <- seq(0,1,0.1)
-K <- 5
+K <- 6
 cr <- choicealpha(D0, D1, range.alpha,
                   K, graph=FALSE)
 plot(cr)
@@ -292,15 +294,22 @@ cr$Qnorm
 plot(cr, norm = TRUE)
 
 tree <- hclustgeo(D0, D1, alpha  =0.1)
-P5ter <- cutree(tree,5)
+P5ter <- cutree(tree,6)
 sp::plot(map, border="grey", col=P5ter, 
          main=" Partition P5ter obtained with
          alpha=0.1 and neighborhood dissimilarities")
-legend("topleft", legend=1:5, fill=1:5, col=P5ter)
-
+legend("topleft", legend=1:6, fill=1:6, col=P5ter)
 
 
 write.csv(P5ter, 'index_2020.csv')
+
+
+#### test map 
+
+s <- cbind(dat_2019, map)
+
+
+
 
 #### test map 
 
