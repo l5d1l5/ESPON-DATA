@@ -47,7 +47,7 @@ ds %>% ggplot() +
                    mortality,
                    fill = ..Cutpoints..), 
                origin = ori, horizonscale = sca) +
-  scale_fill_hcl(reverse = T) +
+  scale_fill_hcl(palette = 'RdBu',reverse = T) +
   facet_grid(country~.) +
   theme_few() +
   theme(
@@ -72,14 +72,20 @@ ggsave("Figures/Fig_01.png", width = 30, height = 18, units = "cm", dpi = 400)
 
 ### mobility data plot 
 
+
+iris %>%
+  ggplot(aes(x =  Sepal.Length, y = Sepal.Length)) +
+  geom_point() +
+  facet_wrap(~Species, scale = 'free')
+
+
 mob <- read_csv('Input/mob_data.csv')
 
 mob %>%
   ggplot(aes(value, country_region_code, color = wave))+
-  theme_linedraw() +
   geom_vline(aes(xintercept=0), color = 'gray', lwd=1.5) +
   geom_point(size = 3.5, alpha = .7) +
-  facet_grid(~variable,space = "fixed", scale = 'free') +
+  facet_wrap(~variable, scales = "free_y", nrow = 1) +
   labs(x=NULL, y=NULL,
        title="Mobility data trends across European countries during the pandemic waves", 
        subtitle = 'Percentage change compared to the baseline') +

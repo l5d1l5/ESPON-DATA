@@ -1,14 +1,36 @@
 ## Remakrs from Prof. BOURDIN 
 
 ### PLOTS 
+---> NO UNIQUE PLOTS ACROSS THE REPORT (just maps, just bars, just scatter)
 
 - fig 1 
 
+Bleu clair, --> DONE 
+
 - fig 2 
+
+make it readble across the plots --> DONE 
 
 - fig 3 
 
+Make le decoupage "white" | Exc. mortality map (during the three waves) -->  
+
 - fig 4 
+Markov chains: 
+
+- fig 5: 
+
+Spider diag (for clusters)
+Add to the clustring (--> Exc. mortality - sum(2020)-) -- just in 2020 -- 
+
+- Animated maps (Weekly): 
+	- Cases: case density 
+	- Deaths: new deaths/ culumative deaths/
+		death rate density/ cumulative death rate	 
+
+- maps --> 
+
+ --->> just the difference difference (iso/choro) 
 
 
 ### QTs 
@@ -18,3 +40,8 @@ NUTS3/LAU data?
 
 * What I'm responsible for exactly? (from the mid-report!) 
 
+* I'll do the standalone maps in choropleth, if we manage to have some time
+I'll turn them in isopleth. 
+
+
+https://gitlab.huma-num.fr/nlambert/covid19/-/blob/master/app.R

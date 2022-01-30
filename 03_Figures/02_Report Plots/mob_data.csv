@@ -1,0 +1,541 @@
+country_region_code,variable,value,wave
+AT,Grocery and pharmacy,-24.72690991955359,First wave
+AT,Parks,-31.37649576806347,First wave
+AT,Residential,15.395379028726529,First wave
+AT,Retail and recreation,-58.30322947891754,First wave
+AT,Transit stations,-44.71129916982833,First wave
+AT,Workplaces,-39.59246230158377,First wave
+BE,Grocery and pharmacy,-19.461016949152544,First wave
+BE,Parks,-13.356497175141243,First wave
+BE,Residential,19.03559322033898,First wave
+BE,Retail and recreation,-58.41525423728814,First wave
+BE,Transit stations,-50.43728813559322,First wave
+BE,Workplaces,-45.66101694915254,First wave
+BG,Grocery and pharmacy,-21.387258201286215,First wave
+BG,Parks,-22.971069090014215,First wave
+BG,Residential,12.235714201699627,First wave
+BG,Retail and recreation,-44.37677904820728,First wave
+BG,Transit stations,-41.159598208102814,First wave
+BG,Workplaces,-31.077464638158506,First wave
+CH,Grocery and pharmacy,-9.473149607151813,First wave
+CH,Parks,8.88070300355222,First wave
+CH,Residential,15.814499367220153,First wave
+CH,Retail and recreation,-56.23311028453102,First wave
+CH,Transit stations,-39.211525423728816,First wave
+CH,Workplaces,-33.51476703492761,First wave
+CZ,Grocery and pharmacy,-5.089840355258627,First wave
+CZ,Parks,10.547423884694718,First wave
+CZ,Residential,11.782935756805843,First wave
+CZ,Retail and recreation,-47.808575117729966,First wave
+CZ,Transit stations,-32.863007113821666,First wave
+CZ,Workplaces,-28.37019821588602,First wave
+DE,Grocery and pharmacy,-7.8192090395480225,First wave
+DE,Parks,27.305084745762713,First wave
+DE,Residential,10.923728813559322,First wave
+DE,Retail and recreation,-40.26588983050848,First wave
+DE,Transit stations,-39.66525423728814,First wave
+DE,Workplaces,-29.39512711864407,First wave
+DK,Grocery and pharmacy,-9.803609744817075,First wave
+DK,Parks,32.2534103491909,First wave
+DK,Residential,11.93009670996292,First wave
+DK,Retail and recreation,-20.781647077571588,First wave
+DK,Transit stations,-39.55815711122668,First wave
+DK,Workplaces,-35.22467864054205,First wave
+EE,Grocery and pharmacy,-11.368600608431118,First wave
+EE,Parks,10.666666666666668,First wave
+EE,Residential,12.29406779661017,First wave
+EE,Retail and recreation,-36.38214836011446,First wave
+EE,Transit stations,-29.435351089588377,First wave
+EE,Workplaces,-31.768845843422113,First wave
+ES,Grocery and pharmacy,-42.043358297201415,First wave
+ES,Parks,-58.294442254631456,First wave
+ES,Residential,21.36189162302682,First wave
+ES,Retail and recreation,-72.25817895151755,First wave
+ES,Transit stations,-65.01446581305161,First wave
+ES,Workplaces,-50.89396925502562,First wave
+FI,Grocery and pharmacy,-10.358673407084785,First wave
+FI,Parks,31.448781569605142,First wave
+FI,Residential,10.112352743953078,First wave
+FI,Retail and recreation,-33.123045073379615,First wave
+FI,Transit stations,-39.469614258253905,First wave
+FI,Workplaces,-29.84614843920516,First wave
+FR,Grocery and pharmacy,-32.9712358988175,First wave
+FR,Parks,-42.19653768956289,First wave
+FR,Residential,21.058007866051803,First wave
+FR,Retail and recreation,-64.52115029956789,First wave
+FR,Transit stations,-59.42586145782577,First wave
+FR,Workplaces,-48.392125706214685,First wave
+GB,Grocery and pharmacy,-17.9164331077246,First wave
+GB,Parks,-4.476439535022417,First wave
+GB,Residential,17.431920239176037,First wave
+GB,Retail and recreation,-52.333292531099545,First wave
+GB,Transit stations,-45.25307143476933,First wave
+GB,Workplaces,-44.77978203344588,First wave
+GR,Grocery and pharmacy,-8.469733656174334,First wave
+GR,Parks,-26.152542372881356,First wave
+GR,Residential,16.416464891041162,First wave
+GR,Retail and recreation,-57.70217917675545,First wave
+GR,Transit stations,-50.697336561743334,First wave
+GR,Workplaces,-41.00242130750605,First wave
+HR,Grocery and pharmacy,-22.288984633401384,First wave
+HR,Parks,-4.523108200650574,First wave
+HR,Residential,13.707298271131771,First wave
+HR,Retail and recreation,-48.57506690454951,First wave
+HR,Transit stations,-50.51231724625622,First wave
+HR,Workplaces,-37.354317998385795,First wave
+HU,Grocery and pharmacy,-12.836440677966102,First wave
+HU,Parks,7.912900438200852,First wave
+HU,Residential,11.586695760671203,First wave
+HU,Retail and recreation,-31.625512934879573,First wave
+HU,Transit stations,-29.522033898305082,First wave
+HU,Workplaces,-29.99576271186441,First wave
+IE,Grocery and pharmacy,-12.31348109517601,First wave
+IE,Parks,-9.726749233617474,First wave
+IE,Residential,19.42837493254269,First wave
+IE,Retail and recreation,-54.72879356457839,First wave
+IE,Transit stations,-44.56164018618064,First wave
+IE,Workplaces,-43.70805736636245,First wave
+IT,Grocery and pharmacy,-43.37847929705941,First wave
+IT,Parks,-65.41634964763604,First wave
+IT,Residential,25.210894739451973,First wave
+IT,Retail and recreation,-73.67908538535337,First wave
+IT,Transit stations,-70.11450710981494,First wave
+IT,Workplaces,-54.68276303165974,First wave
+LI,Grocery and pharmacy,-1.25,First wave
+LI,Parks,,First wave
+LI,Residential,,First wave
+LI,Retail and recreation,-45.26470588235294,First wave
+LI,Transit stations,-30.87719298245614,First wave
+LI,Workplaces,-30.441860465116278,First wave
+LT,Grocery and pharmacy,-17.518355304457,First wave
+LT,Parks,21.709839588377722,First wave
+LT,Residential,12.576424535916061,First wave
+LT,Retail and recreation,-41.289900008967805,First wave
+LT,Transit stations,-31.28517924401399,First wave
+LT,Workplaces,-33.12876580575733,First wave
+LU,Grocery and pharmacy,-27.305084745762713,First wave
+LU,Parks,-21.491525423728813,First wave
+LU,Residential,23.17543859649123,First wave
+LU,Retail and recreation,-62.49152542372882,First wave
+LU,Transit stations,-52.83050847457627,First wave
+LU,Workplaces,-52.50847457627118,First wave
+LV,Grocery and pharmacy,-11.581611240176334,First wave
+LV,Parks,-13.901129943502823,First wave
+LV,Residential,9.785310734463277,First wave
+LV,Retail and recreation,-25.541027489163884,First wave
+LV,Transit stations,-35.54237288135593,First wave
+LV,Workplaces,-28.849964631026584,First wave
+MT,Grocery and pharmacy,-18.152542372881356,First wave
+MT,Parks,-28.779661016949152,First wave
+MT,Residential,19.389830508474578,First wave
+MT,Retail and recreation,-52.3728813559322,First wave
+MT,Transit stations,-40.76271186440678,First wave
+MT,Workplaces,-42.016949152542374,First wave
+NL,Grocery and pharmacy,-6.144081499673302,First wave
+NL,Parks,10.134870342411824,First wave
+NL,Residential,12.442400834881575,First wave
+NL,Retail and recreation,-31.206628036525156,First wave
+NL,Transit stations,-42.1169346151317,First wave
+NL,Workplaces,-32.71532314430604,First wave
+NO,Grocery and pharmacy,-7.922864784731985,First wave
+NO,Parks,20.478693849327144,First wave
+NO,Residential,13.062862173527622,First wave
+NO,Retail and recreation,-30.82577646348083,First wave
+NO,Transit stations,-35.8699046931322,First wave
+NO,Workplaces,-35.23344186754345,First wave
+PL,Grocery and pharmacy,-19.613103657930797,First wave
+PL,Parks,-21.920844698778716,First wave
+PL,Residential,13.048305065849538,First wave
+PL,Retail and recreation,-41.56120663738494,First wave
+PL,Transit stations,-42.76632399471002,First wave
+PL,Workplaces,-28.19842243592437,First wave
+PT,Grocery and pharmacy,-30.566647671976124,First wave
+PT,Parks,-42.85228541609107,First wave
+PT,Residential,23.920726928939086,First wave
+PT,Retail and recreation,-57.90620437110644,First wave
+PT,Transit stations,-56.27729086774096,First wave
+PT,Workplaces,-43.808440597164164,First wave
+RO,Grocery and pharmacy,-29.48264996762133,First wave
+RO,Parks,-31.5934911121648,First wave
+RO,Residential,13.783416507233078,First wave
+RO,Retail and recreation,-50.895027185605976,First wave
+RO,Transit stations,-44.41313420034562,First wave
+RO,Workplaces,-34.08691352246029,First wave
+SE,Grocery and pharmacy,-3.3884595512768136,First wave
+SE,Parks,24.88085970144934,First wave
+SE,Residential,7.967800724689637,First wave
+SE,Retail and recreation,-14.18982432057215,First wave
+SE,Transit stations,-24.624908876041047,First wave
+SE,Workplaces,-19.721566006596863,First wave
+SI,Grocery and pharmacy,-39.49543536805501,First wave
+SI,Parks,-29.145608017218187,First wave
+SI,Residential,17.061097659402744,First wave
+SI,Retail and recreation,-59.48591506146801,First wave
+SI,Transit stations,-45.742601337957176,First wave
+SI,Workplaces,-40.260886452039834,First wave
+SK,Grocery and pharmacy,-23.698053861458646,First wave
+SK,Parks,-14.825966219795259,First wave
+SK,Residential,14.167972328013715,First wave
+SK,Retail and recreation,-57.385941064008406,First wave
+SK,Transit stations,-47.51703012884898,First wave
+SK,Workplaces,-35.785518983448924,First wave
+AT,Grocery and pharmacy,-14.91185831755385,Second wave
+AT,Parks,-17.699998471446598,Second wave
+AT,Residential,8.467363898379476,Second wave
+AT,Retail and recreation,-39.593658113870305,Second wave
+AT,Transit stations,-29.30392062963699,Second wave
+AT,Workplaces,-27.753457442430374,Second wave
+BE,Grocery and pharmacy,0.19193176579068702,Second wave
+BE,Parks,34.85488704472107,Second wave
+BE,Residential,11.004979253112033,Second wave
+BE,Retail and recreation,-30.5830336560627,Second wave
+BE,Transit stations,-26.65850622406639,Second wave
+BE,Workplaces,-24.930705394190873,Second wave
+BG,Grocery and pharmacy,3.6025891623066313,Second wave
+BG,Parks,2.4268980606364106,Second wave
+BG,Residential,2.7187328400191673,Second wave
+BG,Retail and recreation,-24.81778527116871,Second wave
+BG,Transit stations,-19.199810538004655,Second wave
+BG,Workplaces,-22.259303175038234,Second wave
+CH,Grocery and pharmacy,-1.0395391414141415,Second wave
+CH,Parks,17.09925286078454,Second wave
+CH,Residential,8.516998172534317,Second wave
+CH,Retail and recreation,-29.25009809729798,Second wave
+CH,Transit stations,-23.84405255878285,Second wave
+CH,Workplaces,-20.738743761138323,Second wave
+CZ,Grocery and pharmacy,3.17928808950727,Second wave
+CZ,Parks,15.557110373265385,Second wave
+CZ,Residential,9.234919917580319,Second wave
+CZ,Retail and recreation,-34.25517642799898,Second wave
+CZ,Transit stations,-16.451816847875403,Second wave
+CZ,Workplaces,-20.334485009509187,Second wave
+DE,Grocery and pharmacy,-3.3169087136929463,Second wave
+DE,Parks,34.602472941995764,Second wave
+DE,Residential,8.550570539419088,Second wave
+DE,Retail and recreation,-33.88252074688797,Second wave
+DE,Transit stations,-30.3597510373444,Second wave
+DE,Workplaces,-22.37344398340249,Second wave
+DK,Grocery and pharmacy,-5.363410919005541,Second wave
+DK,Parks,24.068284898603785,Second wave
+DK,Residential,7.546937237372465,Second wave
+DK,Retail and recreation,-9.979977128110113,Second wave
+DK,Transit stations,-29.361629930042962,Second wave
+DK,Workplaces,-24.28663352709207,Second wave
+EE,Grocery and pharmacy,5.072001580715273,Second wave
+EE,Parks,7.823275862068965,Second wave
+EE,Residential,5.263228610946453,Second wave
+EE,Retail and recreation,-15.050661924520846,Second wave
+EE,Transit stations,-15.856727919383522,Second wave
+EE,Workplaces,-18.518869788579334,Second wave
+ES,Grocery and pharmacy,0.6736629100704469,Second wave
+ES,Parks,-1.8010507453852271,Second wave
+ES,Residential,7.300781626942005,Second wave
+ES,Retail and recreation,-33.105937791501816,Second wave
+ES,Transit stations,-24.554227624373897,Second wave
+ES,Workplaces,-19.12955661855594,Second wave
+FI,Grocery and pharmacy,0.6867011308358753,Second wave
+FI,Parks,30.984946616941198,Second wave
+FI,Residential,6.243008701762099,Second wave
+FI,Retail and recreation,-12.476560697065421,Second wave
+FI,Transit stations,-36.525957681604446,Second wave
+FI,Workplaces,-15.254853411757882,Second wave
+FR,Grocery and pharmacy,-0.19960241278468732,Second wave
+FR,Parks,13.165786637738002,Second wave
+FR,Residential,7.959917220231779,Second wave
+FR,Retail and recreation,-30.633830801669053,Second wave
+FR,Transit stations,-19.22992667654616,Second wave
+FR,Workplaces,-23.74889143853654,Second wave
+GB,Grocery and pharmacy,-9.268239055348978,Second wave
+GB,Parks,22.893568906895357,Second wave
+GB,Residential,13.431534917504615,Second wave
+GB,Retail and recreation,-39.222515851488744,Second wave
+GB,Transit stations,-42.27869896505729,Second wave
+GB,Workplaces,-35.736178872106116,Second wave
+GR,Grocery and pharmacy,9.636988737403676,Second wave
+GR,Parks,27.80023710729105,Second wave
+GR,Residential,6.7053941908713695,Second wave
+GR,Retail and recreation,-36.277316735822964,Second wave
+GR,Transit stations,-31.91464137522229,Second wave
+GR,Workplaces,-25.981624184943687,Second wave
+HR,Grocery and pharmacy,4.27055120531814,Second wave
+HR,Parks,28.398096264367815,Second wave
+HR,Residential,3.5040591387937967,Second wave
+HR,Retail and recreation,-22.819612828752376,Second wave
+HR,Transit stations,-22.411706970153457,Second wave
+HR,Workplaces,-21.06219867615096,Second wave
+HU,Grocery and pharmacy,2.0595895623630938,Second wave
+HU,Parks,29.236253712184272,Second wave
+HU,Residential,6.8940258668802015,Second wave
+HU,Retail and recreation,-16.335804760864818,Second wave
+HU,Transit stations,-12.820539419087137,Second wave
+HU,Workplaces,-20.05391885661595,Second wave
+IE,Grocery and pharmacy,0.7090328758378552,Second wave
+IE,Parks,1.7377620954525754,Second wave
+IE,Residential,11.097560758743331,Second wave
+IE,Retail and recreation,-35.10434780295776,Second wave
+IE,Transit stations,-44.92428797973291,Second wave
+IE,Workplaces,-31.130400882512696,Second wave
+IT,Grocery and pharmacy,-5.3568787818642125,Second wave
+IT,Parks,1.3221917434040396,Second wave
+IT,Residential,9.581092930400063,Second wave
+IT,Retail and recreation,-30.563661258148684,Second wave
+IT,Transit stations,-32.328046602902674,Second wave
+IT,Workplaces,-23.829546026606863,Second wave
+LI,Grocery and pharmacy,,Second wave
+LI,Parks,,Second wave
+LI,Residential,,Second wave
+LI,Retail and recreation,-42.333333333333336,Second wave
+LI,Transit stations,-26.75,Second wave
+LI,Workplaces,-22.512048192771083,Second wave
+LT,Grocery and pharmacy,18.886361802674042,Second wave
+LT,Parks,15.484550977239554,Second wave
+LT,Residential,4.956799490658412,Second wave
+LT,Retail and recreation,-38.93298310610551,Second wave
+LT,Transit stations,-21.01203786032624,Second wave
+LT,Workplaces,-22.451253896902237,Second wave
+LU,Grocery and pharmacy,-6.375,Second wave
+LU,Parks,5.706896551724138,Second wave
+LU,Residential,10.813278008298756,Second wave
+LU,Retail and recreation,-33.912863070539416,Second wave
+LU,Transit stations,-27.04979253112033,Second wave
+LU,Workplaces,-28.645833333333332,Second wave
+LV,Grocery and pharmacy,-2.5865688599091086,Second wave
+LV,Parks,-6.352370689655173,Second wave
+LV,Residential,7.909543568464731,Second wave
+LV,Retail and recreation,-24.19505909028731,Second wave
+LV,Transit stations,-28.204218533886586,Second wave
+LV,Workplaces,-25.26623034357128,Second wave
+MT,Grocery and pharmacy,-4.377593360995851,Second wave
+MT,Parks,-3.8382978723404255,Second wave
+MT,Residential,9.033195020746888,Second wave
+MT,Retail and recreation,-21.456431535269708,Second wave
+MT,Transit stations,-20.510373443983404,Second wave
+MT,Workplaces,-22.57261410788382,Second wave
+NL,Grocery and pharmacy,-2.9094980048591497,Second wave
+NL,Parks,19.23203128496178,Second wave
+NL,Residential,9.5180450490617,Second wave
+NL,Retail and recreation,-29.91985321378811,Second wave
+NL,Transit stations,-39.96154406005022,Second wave
+NL,Workplaces,-23.158765651181294,Second wave
+NO,Grocery and pharmacy,-1.546024868044949,Second wave
+NO,Parks,10.6375806239322,Second wave
+NO,Residential,7.120176335317298,Second wave
+NO,Retail and recreation,-12.38172127246466,Second wave
+NO,Transit stations,-37.21137928807911,Second wave
+NO,Workplaces,-19.568540203424394,Second wave
+PL,Grocery and pharmacy,3.0026806048211796,Second wave
+PL,Parks,6.821619396488163,Second wave
+PL,Residential,6.110140110903431,Second wave
+PL,Retail and recreation,-16.013825341940834,Second wave
+PL,Transit stations,-21.967600377728765,Second wave
+PL,Workplaces,-17.23302710895771,Second wave
+PT,Grocery and pharmacy,-1.7690641294656484,Second wave
+PT,Parks,-14.71806830059984,Second wave
+PT,Residential,12.875418744972679,Second wave
+PT,Retail and recreation,-32.021102700893486,Second wave
+PT,Transit stations,-34.61428117639613,Second wave
+PT,Workplaces,-23.73985726803269,Second wave
+RO,Grocery and pharmacy,0.9796815616411485,Second wave
+RO,Parks,-14.989705792204095,Second wave
+RO,Residential,4.681783072608414,Second wave
+RO,Retail and recreation,-21.475958488690218,Second wave
+RO,Transit stations,-24.385154566631336,Second wave
+RO,Workplaces,-20.348237239147384,Second wave
+SE,Grocery and pharmacy,-5.584887208272158,Second wave
+SE,Parks,15.02344381953913,Second wave
+SE,Residential,8.034531833797335,Second wave
+SE,Retail and recreation,-14.743814670363793,Second wave
+SE,Transit stations,-34.11702189932825,Second wave
+SE,Workplaces,-20.07079716171974,Second wave
+SI,Grocery and pharmacy,-22.46340718715017,Second wave
+SI,Parks,-14.401277709359606,Second wave
+SI,Residential,10.290999653429349,Second wave
+SI,Retail and recreation,-41.01953568245961,Second wave
+SI,Transit stations,-33.53395556698696,Second wave
+SI,Workplaces,-26.21387889390765,Second wave
+SK,Grocery and pharmacy,-5.7856577707139145,Second wave
+SK,Parks,-12.801772828437413,Second wave
+SK,Residential,9.294337667028683,Second wave
+SK,Retail and recreation,-37.653801557319454,Second wave
+SK,Transit stations,-33.32882932513472,Second wave
+SK,Workplaces,-25.41056714907201,Second wave
+AT,Grocery and pharmacy,6.424741071413842,Third wave
+AT,Parks,47.35021460371277,Third wave
+AT,Residential,2.218190427668844,Third wave
+AT,Retail and recreation,-0.04017229034536287,Third wave
+AT,Transit stations,-1.7075669605907564,Third wave
+AT,Workplaces,-20.259706847878025,Third wave
+BE,Grocery and pharmacy,20.076315789473682,Third wave
+BE,Parks,88.11600877192983,Third wave
+BE,Residential,4.731578947368422,Third wave
+BE,Retail and recreation,10.307236842105263,Third wave
+BE,Transit stations,-8.132894736842106,Third wave
+BE,Workplaces,-19.395394736842103,Third wave
+BG,Grocery and pharmacy,24.762806352486823,Third wave
+BG,Parks,34.373989445660875,Third wave
+BG,Residential,-3.427333487542559,Third wave
+BG,Retail and recreation,-4.929697728367974,Third wave
+BG,Transit stations,11.832495797410454,Third wave
+BG,Workplaces,-19.33976580581953,Third wave
+CH,Grocery and pharmacy,11.995127484280879,Third wave
+CH,Parks,65.16764157853783,Third wave
+CH,Residential,2.573641134085213,Third wave
+CH,Retail and recreation,-4.374717108804186,Third wave
+CH,Transit stations,-7.794999999999999,Third wave
+CH,Workplaces,-15.58788195184317,Third wave
+CZ,Grocery and pharmacy,29.06419863431311,Third wave
+CZ,Parks,61.98066572764817,Third wave
+CZ,Residential,1.523985418556082,Third wave
+CZ,Retail and recreation,17.336916847171636,Third wave
+CZ,Transit stations,21.113916927447512,Third wave
+CZ,Workplaces,-12.018871191135736,Third wave
+DE,Grocery and pharmacy,20.76644736842105,Third wave
+DE,Parks,111.28042763157895,Third wave
+DE,Residential,3.2208059210526314,Third wave
+DE,Retail and recreation,2.5300164473684212,Third wave
+DE,Transit stations,-2.398848684210526,Third wave
+DE,Workplaces,-11.946957236842104,Third wave
+DK,Grocery and pharmacy,7.1599872608966875,Third wave
+DK,Parks,81.13914984075167,Third wave
+DK,Residential,1.9700423543258851,Third wave
+DK,Retail and recreation,19.612570527915235,Third wave
+DK,Transit stations,-4.602957287527717,Third wave
+DK,Workplaces,-18.53880198618572,Third wave
+EE,Grocery and pharmacy,24.61074561403509,Third wave
+EE,Parks,47.12280701754386,Third wave
+EE,Residential,0.6925125313283208,Third wave
+EE,Retail and recreation,12.785745614035088,Third wave
+EE,Transit stations,1.1949561403508773,Third wave
+EE,Workplaces,-12.145770676691729,Third wave
+ES,Grocery and pharmacy,22.32154149909658,Third wave
+ES,Parks,61.13234394124847,Third wave
+ES,Residential,0.6000611995104039,Third wave
+ES,Retail and recreation,-2.8349143206854346,Third wave
+ES,Transit stations,9.806762545899634,Third wave
+ES,Workplaces,-14.848837209302324,Third wave
+FI,Grocery and pharmacy,15.957896637970682,Third wave
+FI,Parks,91.01103947552653,Third wave
+FI,Residential,2.224040200708271,Third wave
+FI,Retail and recreation,13.76249710875427,Third wave
+FI,Transit stations,-22.16476961061686,Third wave
+FI,Workplaces,-18.3943439035871,Third wave
+FR,Grocery and pharmacy,27.684871672265416,Third wave
+FR,Parks,109.22802196176929,Third wave
+FR,Residential,1.9001688019390581,Third wave
+FR,Retail and recreation,6.773331457756233,Third wave
+FR,Transit stations,28.19626443390814,Third wave
+FR,Workplaces,-16.561472039473685,Third wave
+GB,Grocery and pharmacy,7.611449931634124,Third wave
+GB,Parks,54.40261099057852,Third wave
+GB,Residential,5.989694160000485,Third wave
+GB,Retail and recreation,-2.6920703967194326,Third wave
+GB,Transit stations,-19.433641655930227,Third wave
+GB,Workplaces,-26.075312977695457,Third wave
+GR,Grocery and pharmacy,71.31860902255639,Third wave
+GR,Parks,189.63063909774436,Third wave
+GR,Residential,-4.993421052631579,Third wave
+GR,Retail and recreation,35.52161654135339,Third wave
+GR,Transit stations,108.84304511278197,Third wave
+GR,Workplaces,-7.239661654135338,Third wave
+HR,Grocery and pharmacy,48.88742601273765,Third wave
+HR,Parks,172.90432235892763,Third wave
+HR,Residential,-2.5792241019214703,Third wave
+HR,Retail and recreation,34.76790935672515,Third wave
+HR,Transit stations,43.26451181203987,Third wave
+HR,Workplaces,-10.389035087719298,Third wave
+HU,Grocery and pharmacy,32.176142659279776,Third wave
+HU,Parks,94.51728391040504,Third wave
+HU,Residential,0.6967105263157896,Third wave
+HU,Retail and recreation,33.776315789473685,Third wave
+HU,Transit stations,21.469407894736843,Third wave
+HU,Workplaces,-11.72828947368421,Third wave
+IE,Grocery and pharmacy,25.387724358974356,Third wave
+IE,Parks,52.122152086988834,Third wave
+IE,Residential,1.2641282894736843,Third wave
+IE,Retail and recreation,7.145182186234818,Third wave
+IE,Transit stations,-13.535080250936938,Third wave
+IE,Workplaces,-18.328016194331983,Third wave
+IT,Grocery and pharmacy,21.733490566037734,Third wave
+IT,Parks,106.35805964190426,Third wave
+IT,Residential,1.0057100297914598,Third wave
+IT,Retail and recreation,6.427197120158888,Third wave
+IT,Transit stations,5.73420253045796,Third wave
+IT,Workplaces,-13.934520854021846,Third wave
+LI,Grocery and pharmacy,,Third wave
+LI,Parks,,Third wave
+LI,Residential,,Third wave
+LI,Retail and recreation,,Third wave
+LI,Transit stations,-18.689655172413794,Third wave
+LI,Workplaces,-21.046296296296298,Third wave
+LT,Grocery and pharmacy,61.79541423001949,Third wave
+LT,Parks,86.62264820036202,Third wave
+LT,Residential,-3.8739612050960734,Third wave
+LT,Retail and recreation,-2.0317927631578945,Third wave
+LT,Transit stations,7.843144971804511,Third wave
+LT,Workplaces,-5.2095381683375095,Third wave
+LU,Grocery and pharmacy,10.927631578947368,Third wave
+LU,Parks,67.10526315789474,Third wave
+LU,Residential,4.125,Third wave
+LU,Retail and recreation,-6.671052631578948,Third wave
+LU,Transit stations,-4.203947368421052,Third wave
+LU,Workplaces,-18.342105263157894,Third wave
+LV,Grocery and pharmacy,20.36499843358396,Third wave
+LV,Parks,32.10087719298245,Third wave
+LV,Residential,2.648245614035088,Third wave
+LV,Retail and recreation,-10.290996412213516,Third wave
+LV,Transit stations,-7.923793859649123,Third wave
+LV,Workplaces,-18.078364351324673,Third wave
+MT,Grocery and pharmacy,20.42763157894737,Third wave
+MT,Parks,48.82236842105263,Third wave
+MT,Residential,1.3026315789473684,Third wave
+MT,Retail and recreation,18.276315789473685,Third wave
+MT,Transit stations,9.105263157894736,Third wave
+MT,Workplaces,-8.539473684210526,Third wave
+NL,Grocery and pharmacy,11.959372258338702,Third wave
+NL,Parks,54.4946605042856,Third wave
+NL,Residential,3.9423022354698305,Third wave
+NL,Retail and recreation,7.323795772001417,Third wave
+NL,Transit stations,-21.798747274375987,Third wave
+NL,Workplaces,-21.03225977003626,Third wave
+NO,Grocery and pharmacy,8.749524024635447,Third wave
+NO,Parks,37.43777111040311,Third wave
+NO,Residential,2.219592417486331,Third wave
+NO,Retail and recreation,11.41233225149,Third wave
+NO,Transit stations,-20.109569056184355,Third wave
+NO,Workplaces,-20.490370054171187,Third wave
+PL,Grocery and pharmacy,43.25317629613205,Third wave
+PL,Parks,71.05816948017767,Third wave
+PL,Residential,-0.7185038225720402,Third wave
+PL,Retail and recreation,21.72419321052914,Third wave
+PL,Transit stations,14.93229475975168,Third wave
+PL,Workplaces,-5.863097064837759,Third wave
+PT,Grocery and pharmacy,41.497726349518395,Third wave
+PT,Parks,60.38957127271633,Third wave
+PT,Residential,3.548408451889593,Third wave
+PT,Retail and recreation,16.92982631109719,Third wave
+PT,Transit stations,-4.000266471485756,Third wave
+PT,Workplaces,-13.620924903810568,Third wave
+RO,Grocery and pharmacy,21.019070623728226,Third wave
+RO,Parks,20.90409644380055,Third wave
+RO,Residential,-1.3197637752338647,Third wave
+RO,Retail and recreation,-0.43209220073322024,Third wave
+RO,Transit stations,-7.850466892880858,Third wave
+RO,Workplaces,-14.8947563912229,Third wave
+SE,Grocery and pharmacy,5.609412496167774,Third wave
+SE,Parks,53.73679582774535,Third wave
+SE,Residential,3.6349449567189733,Third wave
+SE,Retail and recreation,8.311809267068872,Third wave
+SE,Transit stations,-21.505104343486884,Third wave
+SE,Workplaces,-20.333186282618353,Third wave
+SI,Grocery and pharmacy,2.164709906321748,Third wave
+SI,Parks,18.354041353383458,Third wave
+SI,Residential,0.9429532614099939,Third wave
+SI,Retail and recreation,-1.6483215576642232,Third wave
+SI,Transit stations,-9.0370416493619,Third wave
+SI,Workplaces,-16.227747819081774,Third wave
+SK,Grocery and pharmacy,23.267750929653563,Third wave
+SK,Parks,35.99977392318724,Third wave
+SK,Residential,2.195056661495053,Third wave
+SK,Retail and recreation,9.006901646618852,Third wave
+SK,Transit stations,0.7237542016659434,Third wave
+SK,Workplaces,-15.26258519520511,Third wave
