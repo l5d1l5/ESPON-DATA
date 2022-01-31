@@ -1,0 +1,54 @@
+<table class='tempoResults' width='100%'>
+<tr>
+<td class='yellowTitle' align='left' colspan='6'>Search results - AMIGO - ILO unemployment rate by age group and urban/rural area, by macro-regions and development regions</td>
+</tr>
+<tr>
+<th rowspan='4'>Age group </th>
+<th rowspan='4'>Urban and rural areas</th>
+<th rowspan='4'>Macro-regions and regions</th>
+<th align='center' colspan='3'>Periods</th>
+</tr>
+<tr>
+<th align='center'>Year 1996</th>
+<th align='center'>Year 2019</th>
+<th align='center'>Year 2020</th>
+</tr>
+<tr>
+<th align='center' colspan='3'>MU: Percentage</th>
+</tr>
+<tr>
+<th align='center'>Percentage</th>
+<th align='center'>Percentage</th>
+<th align='center'>Percentage</th>
+</tr>
+<tr>
+<th>15 - 24 years</th><th>Total </th><th>TOTAL</th><td align='right'>20</td align='right'><td align='right'>16.8</td align='right'><td align='right'>17.3</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>MACROREGION 1</th><td align='right'>17.2</td align='right'><td align='right'>20.4</td align='right'><td align='right'>21.1</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>NORTH - WEST</th><td align='right'>15.8</td align='right'><td align='right'>11.4</td align='right'><td align='right'>14.1</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>CENTER</th><td align='right'>18.9</td align='right'><td align='right'>30.6</td align='right'><td align='right'>28.8</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>MACROREGION 2</th><td align='right'>22.7</td align='right'><td align='right'>13.3</td align='right'><td align='right'>13.4</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>NORTH - EAST</th><td align='right'>23.8</td align='right'><td align='right'>8.5</td align='right'><td align='right'>8.4</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>SOUTH - EAST</th><td align='right'>20.8</td align='right'><td align='right'>23</td align='right'><td align='right'>23.3</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>MACROREGION 3</th><td align='right'>22</td align='right'><td align='right'>17.8</td align='right'><td align='right'>20.2</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>SOUTH - MUNTENIA</th><td align='right'>23.1</td align='right'><td align='right'>19.3</td align='right'><td align='right'>19.1</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>BUCHAREST - ILFOV</th><td align='right'>19.4</td align='right'><td align='right'>13.3</td align='right'><td align='right'>22.7</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>MACROREGION 4</th><td align='right'>16.6</td align='right'><td align='right'>19.6</td align='right'><td align='right'>18</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>SOUTH - WEST OLTENIA</th><td align='right'>14.9</td align='right'><td align='right'>18.9</td align='right'><td align='right'>17.2</td align='right'></tr>
+<tr>
+<th>-</th><th>-</th><th>WEST</th><td align='right'>18.3</td align='right'><td align='right'>21.1</td align='right'><td align='right'>19.9</td align='right'></tr>
+<tr>
+<td align='left'  colspan='6'><strong>Legend:</strong> ':' - missing data; 'c' - confidential data; 9999,00 - normal - definitive data; <strong><u>9999,00 - bold underline</u></strong> - semidefinitive data; <strong>9999,00 - bold</strong> - revised data; <u>9999,00 - underline</u> - temporary data<br /><br />
+</td>
+</tr>
+</table><table><tr><td colspan="7">&copy; 1998 - 2018 INSTITUTUL NATIONAL DE STATISTICA</td></tr></table>
