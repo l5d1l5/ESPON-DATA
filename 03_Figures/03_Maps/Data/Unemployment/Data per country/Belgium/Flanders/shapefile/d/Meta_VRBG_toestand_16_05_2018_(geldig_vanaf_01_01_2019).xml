@@ -1,0 +1,2071 @@
+﻿<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://www.isotc211.org/2005/gmx/gmx.xsd http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>9ff44cc4-5f16-4507-81a6-6810958b14df</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="dut" />
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode xmlns:xlink="http://www.w3.org/1999/xlink" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="UTF8" />
+  </gmd:characterSet>
+  <gmd:parentIdentifier gco:nilReason="missing">
+    <gco:CharacterString />
+  </gmd:parentIdentifier>
+  <gmd:hierarchyLevel xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+  </gmd:hierarchyLevel>
+  <gmd:contact xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>Helpdesk Informatie Vlaanderen</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>Havenlaan 88</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Brussel</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>1000</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>België</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://overheid.vlaanderen.be/informatie-vlaanderen</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gco:DateTime>2018-07-17T11:17:17</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gco:CharacterString>ISO 19115/2003/Cor.1:2006</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion xmlns:xlink="http://www.w3.org/1999/xlink">
+    <gco:CharacterString>GDI-Vlaanderen Best Practices - versie 1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier xlink:type="simple">
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>31370</gco:CharacterString>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+    <gmd:MD_DataIdentification>
+      <gmd:citation xlink:type="simple">
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>Voorlopig referentiebestand gemeentegrenzen, toestand 16/05/2018 (geldig vanaf 01/01/2019)</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>VRBG2</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Voorlopig referentiebestand administratieve grenzen</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:alternateTitle>
+            <gco:CharacterString>Administratieve indelingen Vlaanderen</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date xlink:type="simple">
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2019-01-01</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date xlink:type="simple">
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2017-08-17</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:edition>
+            <gco:CharacterString>toestand 16/05/2018 (geldig vanaf 01/01/2019)</gco:CharacterString>
+          </gmd:edition>
+          <gmd:identifier xlink:type="simple">
+            <gmd:MD_Identifier>
+              <gmd:code>
+                <gco:CharacterString>fcca956d-0794-455e-be26-3ae580015dd0</gco:CharacterString>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Het Voorlopig Referentiebestand Gemeentegrenzen bevat informatie over de afbakeningen van het grondgebied van de bestuurlijke eenheden in het Vlaamse Gewest: Gemeenten, Bestuurlijke arrondissementen, Provincies en het Vlaams Gewest. Verder bevat deze dataset meta-informatie over de herkomst van de geometrie van de gemeentegrenzen.
+Het voorlopig referentiebestand gemeentegrenzen doet dienst als geometrische en object-referentie voor de bestuurlijke indelingen in Vlaanderen.
+Voor het opbouwen van de geometrie van de gemeentegrenzen wordt de best beschikbare informatie gehanteerd. In vele gevallen is de geometrie van de adp's (administratieve percelen) van het GRB (Groootschalig Referentiebestand) gebruikt, tenzij er beter vastgestelde geometrische informatie (zoals bvb lijsten van coördinaten die in het Belgisch Staatsblad zijn gepubliceerd bij vaststelling van grenzen)voorhanden is.
+
+De Gewest- en landsgrenzen van het Vlaams Gewest, opgemaakt door AAPD (Algemene Administratie van de Patrimoniumdocumentatie, Federale Overheidsdienst Financiën) op basis van de diverse beschikbare bronnen werden geïntegreerd in deze versie. 
+De geometrie van de grens met Nederland is vastgelegd in het kader van een aantal grenscommissies. De geometrie van de landsgrens met Nederland ligt dus officieel vast.  
+De geometrie van de grens met Frankrijk werd niet formeel met Frankrijk gevalideerd, AAPD gaat er echter van uit dat deze niet meer zal veranderen.
+De geometrie van de grens met het Brussels en Waals Gewest dient nog finaal gevalideerd te worden, eventuele wijzigingen zullen zich echter beperken tot zeer plaatselijke aanpassingen.
+
+Deze versie incorporeert de fusies zoals doorgevoerd op 01/01/2019.
+De Algemene Directie Statistiek – Statistics Belgium heeft aan deze nieuwe gemeentes nieuwe NIS-codes toegekend. Die zullen van kracht zijn op de startdatum van de fusie (op 01/01/2019):
+- Meeuwen-Gruitrode en Opglabbeek: NIS 72042 (nieuwe naam: Oudsbergen)
+- Neerpelt en Overpelt: NIS 72043 (nieuwe naam: Pelt)
+- Kruishoutem en Zingem: NIS 45068 (nieuwe naam: Kruisem)
+- Aalter en Knesselare: NIS 44084 (nieuwe naam: Aalter)
+- Deinze en Nevele: NIS 44083
+- Puurs en Sint-Amands: NIS 12041 (nieuwe naam: Puurs-Sint-Amands)
+- Waarschoot, Lovendegem &amp; Zomergem: NIS 44085 (nieuwe naam: Lievegem)</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>Beschikbaar stellen van algemeen bruikbare, geometrische en object-referentie van bestuurlijke indelingen in Vlaanderen, in afwachting van de validatie en beschikbaarheid van een dataset voor België die opgemaakt wordt door AAPD (Algemene Administratie van de Patrimoniumdocumentatie, Federale Overheidsdienst Financiën), in uitvoering van het CSPI-akkoord (Samenwerkingsakkoord tussen de Federale Staat, het Vlaamse Gewest, het Waalse Gewest en het Brusselse Hoofdstedelijk Gewest met betrekking tot de Coördinatiestructuur voor patrimoniuminformatie).</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ProgressCode" codeListValue="underDevelopment" />
+      </gmd:status>
+      <gmd:pointOfContact xlink:type="simple">
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Helpdesk Informatie Vlaanderen</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Havenlaan 88</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Brussel</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>1000</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>België</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://overheid.vlaanderen.be/informatie-vlaanderen</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact xlink:type="simple">
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Helpdesk Informatie Vlaanderen</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Havenlaan 88</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Brussel</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>1000</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>België</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://overheid.vlaanderen.be/informatie-vlaanderen</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="owner" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact xlink:type="simple">
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Helpdesk Informatie Vlaanderen</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>Havenlaan 88</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Brussel</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>1000</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>België</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://overheid.vlaanderen.be/informatie-vlaanderen</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="originator" />
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>http://metadata.agiv.be:80/zoekdienst/srv/eng/resources.get?uuid=2A164246-9025-4426-8EB2-08273E710299&amp;fname=FigAdmGrenzen_meta_1406793343336.jpg</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>thumbnail</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>jpg</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>Administratieve eenheden</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type gco:nilReason="missing">
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET - INSPIRE thema's, versie 1.0</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords xmlns:srv="http://www.isotc211.org/2005/srv">
+          <gmd:keyword>
+            <gco:CharacterString>geografie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>bestuurlijke grens</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gemeente</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gemeente</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gewest</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>provincie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>provincie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type gco:nilReason="missing">
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GEMET - Concepten, versie 2.4</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2010-01-13</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>administratieve eenheid</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>bestuurlijke indeling</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>NIS-code</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>provincie</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>arrondissement</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gewest</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>referentiebestand</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>provinciegrens</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>administratieve grens</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>territorium</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gewestgrens</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gemeenteterritorium</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>arrondissementsgrens</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>voorlopig referentiebestand bestuurlijke indelingen</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>administratieve indeling</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gemeentegrens</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>gemeente</gco:CharacterString>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords xmlns:srv="http://www.isotc211.org/2005/srv">
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Vlaamse Open data</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Toegevoegd GDI-Vl</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Kosteloos</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Herbruikbaar</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Metadata GDI-Vl-conform</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:keyword>
+            <gco:CharacterString>Metadata INSPIRE-conform</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type gco:nilReason="missing">
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>GDI-Vlaanderen Trefwoorden</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2014-02-26</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:keyword>
+          <gmd:type gco:nilReason="missing">
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="" />
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceSpecificUsage xlink:type="simple">
+        <gmd:MD_Usage>
+          <gmd:specificUsage>
+            <gco:CharacterString>Voorlopig referentiebestand met grenzen van bestuurlijke indelingen in het Vlaams Gewest in diverse toepassingen.</gco:CharacterString>
+          </gmd:specificUsage>
+          <gmd:userContactInfo xlink:type="simple">
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Informatie Vlaanderen</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo xlink:type="simple">
+                <gmd:CI_Contact>
+                  <gmd:phone xlink:type="simple">
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>+32 9 276 15 05</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address xlink:type="simple">
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Koningin Maria Hendrikaplein 70</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Gent</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:postalCode>
+                        <gco:CharacterString>9000</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>België</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource xlink:type="simple">
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.vlaanderen.be/informatievlaanderen</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="user" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:userContactInfo>
+        </gmd:MD_Usage>
+      </gmd:resourceSpecificUsage>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Deze dataset doet op niveau van GDI-Vlaanderen dienst als voorlopige referentie in afwachting van het ter beschikking komen en de erkenning als authentieke gegevensbron van een dataset voor België die opgemaakt wordt door AAPD (Algemene Administratie van de Patrimoniumdocumentatie, Federale Overheidsdienst Financiën), in uitvoering van het CSPI-akkoord.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Beperking(en) op de publieke toegang</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+          </gmd:accessConstraints>
+          <gmd:otherConstraints>
+            <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations">Geen beperkingen op de publieke toegang.</gmx:Anchor>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Toegangs- en (her)gebruiksvoorwaarden</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>De gegevens zijn beschermd door het auteursrecht. Indien u een ander type van gebruik wil maken van de gegevens, dan de hier vermelde, dient u zich te wenden tot de eigenaar van de gegevens.</gco:CharacterString>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gmx:Anchor xlink:href="https://overheid.vlaanderen.be/sites/default/files/documenten/ict-egov/licenties/hergebruik/modellicentie_gratis_hergebruik_v1_0.html">In uitvoering van het Vlaamse decreet voor hergebruik van overheidsinformatie, is het hergebruik geregeld d.m.v. de Modellicentie voor gratis hergebruik. Dit betekent dat elk commercieel of niet-commercieel hergebruik voor onbepaalde duur is toegelaten, zonder dat daar kosten aan verbonden zijn. Als enige gebruiksvoorwaarde geldt een bronvermeldingsplicht.</gmx:Anchor>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gmx:Anchor xlink:href="https://codex.vlaanderen.be/PrintDocument.ashx?id=1019561">Toegang en gebruik voor het uitvoeren van taken van algemeen belang, op niveau van Vlaamse overheidsinstanties is geregeld door het Besluit van de Vlaamse Regering met de regels voor toegang en gebruik van geografische gegevensbronnen toegevoegd aan de GDI, door deelnemers GDI-Vlaanderen. Dit gebruik is kosteloos.</gmx:Anchor>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gmx:Anchor xlink:href="https://codex.vlaanderen.be/PrintDocument.ashx?id=1020931">Toegang en gebruik voor het uitvoeren van taken van algemeen belang door niet-Vlaamse overheidsinstanties is geregeld door het Besluit van de Vlaamse Regering met de regels voor toegang en gebruik van geografische gegevensbronnen toegevoegd aan de GDI, door overheidsdiensten die geen deelnemer zijn aan GDI-Vlaanderen. Dit gebruik is kosteloos.</gmx:Anchor>
+          </gmd:otherConstraints>
+          <gmd:otherConstraints>
+            <gmx:Anchor xlink:href="https://overheid.vlaanderen.be/gebruiksvoorwaarden-voor-het-hergebruik-van-overheidsinformatie#bronvermelding2">Bronvermeldingsvoorschrift voor geografische gegevens van Informatie Vlaanderen: “Bron: Informatie Vlaanderen”. Zie link voor bijkomende modaliteiten.</gmx:Anchor>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" />
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale xlink:type="simple">
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>5000</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="dut" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="8859part1" />
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent xlink:type="simple">
+        <gmd:EX_Extent>
+          <gmd:description>
+            <gco:CharacterString>Vlaams Gewest</gco:CharacterString>
+          </gmd:description>
+          <gmd:geographicElement xlink:type="simple">
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>2.53</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>5.92</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>50.67</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>51.51</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:geographicElement xlink:type="simple">
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier xlink:type="simple">
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>Vlaams Gewest</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+          <gmd:temporalElement xlink:type="simple">
+            <gmd:EX_TemporalExtent>
+              <gmd:extent xlink:type="simple">
+                <gml:TimePeriod gml:id="TimePeriod_183" frame="#ISO-8601">
+                  <gml:beginPosition frame="#ISO-8601">2019-01-01</gml:beginPosition>
+                  <gml:endPosition frame="#ISO-8601">1900-01-01</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+    <gmd:MD_FeatureCatalogueDescription>
+      <gmd:includedWithDataset>
+        <gco:Boolean>true</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation uuidref="b3011da9-bdb1-4258-8ef4-b9e2432eec4f" />
+    </gmd:MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat xlink:type="simple">
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>Shapefile</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>nvt</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributionFormat xlink:type="simple">
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>GML</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>2.1.2</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor xlink:type="simple">
+        <gmd:MD_Distributor>
+          <gmd:distributorContact xlink:type="simple">
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Helpdesk Informatie Vlaanderen</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString />
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Havenlaan 88</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Brussel</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:postalCode>
+                        <gco:CharacterString>1000</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>België</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://overheid.vlaanderen.be/informatie-vlaanderen</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+          <gmd:distributionOrderProcess xlink:type="simple">
+            <gmd:MD_StandardOrderProcess>
+              <gmd:fees>
+                <gco:CharacterString>Gratis</gco:CharacterString>
+              </gmd:fees>
+              <gmd:orderingInstructions>
+                <gco:CharacterString>Zonder registratie af te laden via de AGIV-downloadtoepassing (http://download.agiv.be)</gco:CharacterString>
+              </gmd:orderingInstructions>
+              <gmd:turnaround gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:turnaround>
+            </gmd:MD_StandardOrderProcess>
+          </gmd:distributionOrderProcess>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Vlaams Gewest</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Administratieve eenheden</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>WMS Administratieve Eenheden</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refarr19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissementen 2019 - Grenzen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refarr19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissementen 2019 - Grenzen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refprv19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincies 2019 - Grenzen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refprv19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincies 2019 - Grenzen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgew19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest 2019 - Grens</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgew19</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest 2019 - Grens</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19Label</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019 - Namen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19Label</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019 - Namen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19Grens</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019 - Grenzen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19Grens</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019 - Grenzen</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getcapabilities&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19Bron</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019 - Grenzen - Bron Geometrie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/raadpleegdiensten/administratieve_eenheden/wms?request=getmap&amp;service=wms&amp;version=1.3.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WMS-1.3.0-http-get-map</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Refgem19Bron</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeenten 2019 - Grenzen - Bron Geometrie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                <gmd:MD_MediumNameCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine" />
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Vlaams gewest</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>WFS</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>WFS Voorlopig referentiebestand gemeentegrenzen - versie 2019</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refgew</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refprv</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refarr</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refgem</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetCapabilities</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Grensinfo</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Grenzen - Bron Geometrie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgemG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgemG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefarrG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefarrG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefprvG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie- gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefprvG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgewG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?request=GetCapabilities&amp;version=1.1.0</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-capabilities</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgewG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refgew</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refprv</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refarr</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refgem</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Grensinfo</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Grenzen - Bron Geometrie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgemG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgemG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefarrG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement- gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefarrG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement- gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefprvG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie- gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefprvG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgewG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=GetFeature</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-get-feature</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgewG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refgew</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refprv</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refarr</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Refgem</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:Grensinfo</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Grenzen - Bron Geometrie</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgemG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgemG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gemeente - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefarrG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefarrG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Arrondissement - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefprvG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefprvG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Provincie - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgewG10</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest - gegeneraliseerd 10m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG2019/wfs?service=WFS&amp;version=1.1.0&amp;request=DescribeFeatureType</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>OGC:WFS-1.1.0-http-describefeaturetype</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>VRBG:RefgewG100</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Gewest - gegeneraliseerd 100m</gco:CharacterString>
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                <gmd:MD_MediumNameCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine" />
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:unitsOfDistribution>
+            <gco:CharacterString>Vlaams Gewest</gco:CharacterString>
+          </gmd:unitsOfDistribution>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.geopunt.be/download?container=referentiebestand-gemeenten\VoorlopigRefBestandGemeentegrenzen_2019-01-01&amp;title=Voorlopig%20referentiebestand%20gemeentegrenzen,%20toestand%01/01/2019</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:DOWNLOAD-1.0-http--download</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Voorlopig referentiebestand gemeentegrenzen, toestand 01/01/2019</gco:CharacterString>
+              </gmd:name>
+              <gmd:description gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:description>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:offLine>
+            <gmd:MD_Medium>
+              <gmd:name>
+                <gmd:MD_MediumNameCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_MediumNameCode" codeListValue="onLine" />
+              </gmd:name>
+            </gmd:MD_Medium>
+          </gmd:offLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" />
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_DomainConsistency>
+          <gmd:measureIdentification>
+            <gmd:RS_Identifier>
+              <gmd:code gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:code>
+              <gmd:codeSpace gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:codeSpace>
+            </gmd:RS_Identifier>
+          </gmd:measureIdentification>
+          <gmd:measureDescription gco:nilReason="missing">
+            <gco:CharacterString />
+          </gmd:measureDescription>
+          <gmd:dateTime gco:nilReason="missing" />
+          <gmd:result>
+            <gmd:DQ_ConformanceResult>
+              <gmd:specification>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>VERORDENING (EU) Nr. 1089/2010 VAN DE COMMISSIE van 23 november 2010 ter uitvoering van Richtlijn 2007/2/EG van het Europees Parlement en de Raad betreffende de interoperabiliteit van verzamelingen ruimtelijke gegevens en van diensten met betrekking tot ruimtelijke gegevens</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>2010-12-08</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" />
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:specification>
+              <gmd:explanation gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:explanation>
+              <gmd:pass>
+                <gco:Boolean>false</gco:Boolean>
+              </gmd:pass>
+            </gmd:DQ_ConformanceResult>
+          </gmd:result>
+        </gmd:DQ_DomainConsistency>
+      </gmd:report>
+      <gmd:lineage xlink:type="simple">
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>Aanmaak Voorlopig referentiebestand gemeentegrenzen</gco:CharacterString>
+          </gmd:statement>
+          <gmd:processStep xlink:type="simple">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Versie 2003-05-22:
+- Dissolve van de gevectoriseerd contouren van kadastrale plannen (KADSCAN) tot op niveau van een gemeente.
+- Aanpassing ingevolge grenswijzigingen (Zemst, Vilvoorde, Grimbergen, Zelzate) op basis van aanduidingen gepubliceerd in het Belgisch Staatsblad.
+- Correctie van de geometrie en wijziging van de gemeentegrenzen op basis van aanvullingen, verbeteringen, ter beschikking gestelde meer nauwkeurige informatie aan de hand van de evaluatie van de bèta-versie door de deelnemers aan GIS-Vlaanderen.
+- Correctie van de geometrie en wijziging van de gemeentegrenzen op basis van aanvullingen, verbeteringen, ter beschikking gestelde meer nauwkeurige informatie aan de hand van de evaluatie van de bèta-versie door de deelnemers aan GIS-Vlaanderen.
+- Lokale aanpassingen van de geometrie van gemeentegrenzen op basis van de dataset “Kavelplannen van ruilverkavelingen” (waar gemeentegrens op grens van twee aangrenzende percelen ligt)
+- Aanpassing van de geometrie ter hoogte van de kustlijn op basis van de gemiddelde laagwaterlijn zoals die is opgenomen op de zeekaart D11 “Vlaamse Banken” editie januari 2002, AWZ, Afdeling Waterwegen Kust.
+- Aggregatie van de gemeenten uit het Voorlopig referentiebestand gemeentegrenzen tot op niveau van arrondissement, provincie en Gewest.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2002-07-01T12:00:00</gco:DateTime>
+              </gmd:dateTime>
+              <gmd:processor xlink:type="simple">
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Agentschap voor Geografische Informatie Vlaanderen</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo xlink:type="simple">
+                    <gmd:CI_Contact>
+                      <gmd:phone xlink:type="simple">
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                          </gmd:voice>
+                          <gmd:facsimile>
+                            <gco:CharacterString>+32 9 276 15 05</gco:CharacterString>
+                          </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address xlink:type="simple">
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>Koningin Maria Hendrikaplein 70</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Gent</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:postalCode>
+                            <gco:CharacterString>9000</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>België</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>contactpunt@agiv.be</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource xlink:type="simple">
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.agiv.be</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" />
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:processor>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep xlink:type="simple">
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>versie 2015-07-24:
+- Aanpassing van geometrie van gemeentegrenzen aan de geometrie van de administratieve percelen van het grootschalig referentiebestand. In het geval een gemeentegrens op de grens van twee aanpalende administratieve percelen is gelegen, is de geometrie van die gemeenschappelijke adp-grens overgenomen. In het geval de gemeentegrens gelegen is in een openbaar domein (strook zonder adp's), is de middellijn van het openbaar domein als geometrie van de gemeentegrens opgenomen.
+- Aanpassing van de geometrie van gemeentegrenzen ter hoogte van de kust ahv opmeting van de zg basislijn (“Laagwaterlijn (0-meter dieptelijn t.o.v. LAT (Lowest Astronomical Tide) en uiteinden van permanente havenwerken welke buiten de laagwaterlijn uitsteken”) editie 2012, Agentschap Maritieme Dienstverlening en Kust, Afdeling Kust.
+- Aanpassen geometrie van gemeentegrenzen aan goedgekeurd kavelplan van de ruilverkaveling Sint-Lievens-Houtem.
+- Opname data in aangepast productmodel.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2015-07-24T12:00:00</gco:DateTime>
+              </gmd:dateTime>
+              <gmd:processor xlink:type="simple">
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo xlink:type="simple">
+                    <gmd:CI_Contact>
+                      <gmd:phone xlink:type="simple">
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                          </gmd:voice>
+                          <gmd:facsimile>
+                            <gco:CharacterString>+32 9 276 15 05</gco:CharacterString>
+                          </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address xlink:type="simple">
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>Koningin Maria Hendrikaplein 70</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Gent</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:postalCode>
+                            <gco:CharacterString>9000</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>België</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource xlink:type="simple">
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://www.vlaanderen.be/informatievlaanderen</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" />
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:processor>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Versie 2016-01-29:
+-Toevoeging van de nieuwe versie van de laagwaterlijn (toestand mei 2015)
+-Correctie van een grensfout tussen de gemeente Kasterlee en stad Turnhout</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2016-01-29T12:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Versie 2017-08-17:
+-Integratie Gewest- en landsgrenzen van het Vlaams Gewest, opgemaakt door AAPD op basis van de diverse beschikbare bronnen
+-Correctie: verwijderen grensinfolijnen korter dan 1m
+-Correctie van gemelde fouten op gemeentegrenzen</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2017-08-17T12:00:00</gco:DateTime>
+              </gmd:dateTime>
+              <gmd:processor>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                          </gmd:voice>
+                          <gmd:facsimile>
+                            <gco:CharacterString>+32 9 276 15 05</gco:CharacterString>
+                          </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>Koningin Maria Hendrikaplein 70</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Gent</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:postalCode>
+                            <gco:CharacterString>9000</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>België</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://www.vlaanderen.be/informatievlaanderen</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" />
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:processor>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Versie 01/01/2019:
+Deze versie incorporeert de fusies zoals doorgevoerd op 01/01/2019.
+De Algemene Directie Statistiek – Statistics Belgium heeft aan deze nieuwe gemeentes nieuwe NIS-codes toegekend. Die zullen van kracht zijn op de startdatum van de fusie (op 01/01/2019):
+- Meeuwen-Gruitrode en Opglabbeek: NIS 72042 (nieuwe naam: Oudsbergen)
+- Neerpelt en Overpelt: NIS 72043 (nieuwe naam: Pelt)
+- Kruishoutem en Zingem: NIS 45068 (nieuwe naam: Kruisem)
+- Aalter en Knesselare: NIS 44084 (nieuwe naam: Aalter)
+- Deinze en Nevele: NIS 44083
+- Puurs en Sint-Amands: NIS 12041 (nieuwe naam: Puurs-Sint-Amands)
+- Waarschoot, Lovendegem &amp; Zomergem: NIS 44085 (nieuwe naam: Lievegem)</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime gco:nilReason="missing" />
+              <gmd:processor>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName gco:nilReason="missing">
+                    <gco:CharacterString />
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>agentschap Informatie Vlaanderen</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>+32 9 276 15 00</gco:CharacterString>
+                          </gmd:voice>
+                          <gmd:facsimile>
+                            <gco:CharacterString>+32 9 276 15 05</gco:CharacterString>
+                          </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>Koningin Maria Hendrikaplein 70</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>Gent</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:postalCode>
+                            <gco:CharacterString>9000</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>België</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>informatie.vlaanderen@vlaanderen.be</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://www.vlaanderen.be/informatievlaanderen</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="processor" />
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:processor>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

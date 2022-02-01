@@ -1,0 +1,51 @@
+!Workspace
+!Version 600
+!Charset WindowsLatin1
+Open Table "Grensinfo" As Grensinfo Interactive
+Add Map Layer Grensinfo
+Set Map Order 1
+Set Map
+  CoordSys Earth Projection 3, 9999, 4, -99.059, 53.322, -112.486, -0.419, 0.83, -1.885, 0.999999, 0, "m", 4.36748667, 90, 49.8333333333, 51.1666666667, 150000.01256, 5400088.4378000004
+shade 1 with TYPLIJN values
+  "1" Line (30,32,16733440) ,
+  "2" Line (40,32,3713024) ,
+  "3" Line (30,32,9656053) ,
+  "5c" Line (30,32,19880) ,
+  "6a" Line (30,32,16755200) ,
+  "7a" Line (30,32,50687) ,
+  "8a" Line (30,32,16777075) ,
+  "8b" Line (30,32,16776960) ,
+  "8c" Line (30,32,15132160) ,
+  "8d" Line (30,32,11053056) ,
+  "9a" Line (30,32,13893566) ,
+  "9b" Line (30,32,10747763) ,
+  "9c" Line (30,32,5635840) ,
+  "9d" Line (30,32,5039616) ,
+  "10" Line (30,32,9518916)
+set legend
+  layer 1
+    display on
+    shades off
+    symbols on
+    lines off
+    count off
+    title auto Font ("Arial",0,9,0)
+    subtitle auto Font ("Arial",0,8,0)
+    ascending on
+    ranges Font("Arial", 0, 8, 0)
+      auto display off ,
+      "KADSCAN" display on ,
+      "Belgisch Staatsblad" display on ,
+      "Kavelplan RVK" display on ,
+      "Laagwaterlijn 2015" display on ,
+      "Aangrenzende ADP's van GRB" display on ,
+      "Midden openbaar domein ADP van GRB" display on ,
+      "Perceelsgrens -ondertekend PV" display on ,
+      "Perceelsgrens - niet-ondertekend PV" display on ,
+      "Perceelsgrens – opmetingen" display on ,
+      "Perceelsgrens - andere bronnen" display on ,
+      "Openbaar domein - ondertekend PV" display on ,
+      "Openbaar domein - niet ondertekend PV" display on ,
+      "Openbaar domein – opmetingen" display on ,
+      "Openbaar domein - andere bronnen" display on ,
+      "Geconstrueerde lijn" display on
